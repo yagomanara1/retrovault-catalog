@@ -4165,6 +4165,9 @@ function isCategoryIconKey(value) {
   return Object.prototype.hasOwnProperty.call(CATEGORY_ICONS, value);
 }
 
+// src/shared/store.ts
+var QUIVER_SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+
 // src/main/services/store/catalogSchema.ts
 var CATALOG_SCHEMA_VERSION = 1;
 var MAX_PATTERN = 200;
@@ -4238,7 +4241,8 @@ var portSchema = external_exports.object({
     folder: external_exports.string().regex(/^(?!.*\.\.)(?![\\/])(?![A-Za-z]:)[\w .\\/-]{1,100}$/, "pasta de mods inv\xE1lida"),
     extensions: external_exports.array(external_exports.string().regex(/^\.[a-z0-9]{1,8}$/i, "extens\xE3o inv\xE1lida")).min(1).max(8)
   }).optional(),
-  homepage: external_exports.string().url().refine((u) => u.startsWith("https://"), "apenas https").optional()
+  homepage: external_exports.string().url().refine((u) => u.startsWith("https://"), "apenas https").optional(),
+  quiver: external_exports.string().max(150).regex(QUIVER_SLUG, "slug do Quiver inv\xE1lido (min\xFAsculas, n\xFAmeros e h\xEDfens)").optional()
 });
 var catalogSchema = external_exports.object({
   schemaVersion: external_exports.number().int().min(1),

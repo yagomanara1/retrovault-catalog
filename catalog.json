@@ -124,7 +124,8 @@
           ".o2r"
         ]
       },
-      "homepage": "https://www.shipofharkinian.com"
+      "homepage": "https://www.shipofharkinian.com",
+      "quiver": "thelegendofzeldaocarinaoftime-shipofharkinian"
     },
     {
       "id": "2ship2harkinian",
@@ -177,7 +178,8 @@
           ".o2r",
           ".otr"
         ]
-      }
+      },
+      "quiver": "2ship2harkinian"
     },
     {
       "id": "zelda64recomp",
@@ -219,7 +221,8 @@
       },
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora%27s%20Mask%20(USA).png"
-      }
+      },
+      "quiver": "thelegendofzeldamajorasmaskandocarinaoftime-zelda64recompiled"
     },
     {
       "id": "banjorecomp",
@@ -262,7 +265,8 @@
       },
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Banjo-Kazooie%20(USA).png"
-      }
+      },
+      "quiver": "banjokazooie-banjorecompiled"
     },
     {
       "id": "starship",
@@ -314,7 +318,8 @@
           ".o2r",
           ".otr"
         ]
-      }
+      },
+      "quiver": "starfox64-starship"
     },
     {
       "id": "spaghettikart",
@@ -363,7 +368,8 @@
         "extensions": [
           ".o2r"
         ]
-      }
+      },
+      "quiver": "mariokart64-spaghettikart"
     },
     {
       "id": "sm64coopdx",
@@ -406,7 +412,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/coop-deluxe/sm64coopdx/main/textures/segment2/custom_coopdx_logo.rgba32.png",
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Mario%2064%20(USA).png"
-      }
+      },
+      "quiver": "supermario64-supermario64coopdx"
     },
     {
       "id": "perfect-dark",
@@ -447,7 +454,8 @@
       },
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Perfect%20Dark%20(USA).png"
-      }
+      },
+      "quiver": "perfectdark-perfectdarkpcport"
     },
     {
       "id": "unleashedrecomp",
@@ -484,7 +492,8 @@
       },
       "art": {
         "logo": "https://raw.githubusercontent.com/hedge-dev/UnleashedRecompResources/refs/heads/main/images/logo/Logo.png"
-      }
+      },
+      "quiver": "sonicunleashed-unleashedrecompiled"
     },
     {
       "id": "conker-reloaded",
@@ -525,7 +534,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Conker%27s%20Bad%20Fur%20Day%20(USA).png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "conker-s-bad-fur-day-conkerbfdreloaded"
     },
     {
       "id": "dusklight",
@@ -562,7 +572,8 @@
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Twilight%20Princess%20(USA).png"
       },
       "ai": "none",
-      "homepage": "https://twilitrealm.dev/install/"
+      "homepage": "https://twilitrealm.dev/install/",
+      "quiver": "thelegendofzeldatwilightprincess-dusklight"
     },
     {
       "id": "ghostship",
@@ -607,7 +618,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Mario%2064%20(USA).png"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "supermario64-ghostship"
     },
     {
       "id": "dk64-recompiled",
@@ -651,7 +663,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Donkey%20Kong%2064%20(USA).png"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "donkeykong64-dk64rekongpiled"
     },
     {
       "id": "golden-balloon",
@@ -703,7 +716,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Diddy%20Kong%20Racing%20(USA)%20(En%2CFr).png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "diddykongracing-goldenballoon"
     },
     {
       "id": "project-midas",
@@ -746,7 +760,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/GoldenEye%20007%20(USA).png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "goldeneye-007-project-midas"
     },
     {
       "id": "metroid-prime-port",
@@ -782,7 +797,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Metroid%20Prime%20(USA).png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "metroid-prime-metroidprimeport"
     },
     {
       "id": "strikers",
@@ -817,7 +833,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Super%20Mario%20Strikers%20(USA).png"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "supermariostrikers-strikers"
     },
     {
       "id": "recharged",
@@ -852,7 +869,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Mario%20Strikers%20Charged%20(USA).png"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "mario-strikers-charged-recharged"
     },
     {
       "id": "sms-launcher",
@@ -887,7 +905,8 @@
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Super%20Mario%20Sunshine%20(USA).png"
       },
       "install": "portable",
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "super-mario-sunshine-sms-launcher"
     },
     {
       "id": "symphony-recomp",
@@ -924,7 +943,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Castlevania%20-%20Symphony%20of%20the%20Night%20(USA).png"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "castlevaniasymphonyofthenight-symphonyrecomp"
     },
     {
       "id": "medievil-recomp",
@@ -961,7 +981,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/MediEvil%20(USA).png"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "medievil-medievilrecomp"
     },
     {
       "id": "castlevania-chronicles",
@@ -997,7 +1018,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Castlevania%20Chronicles%20(USA).png"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "castlevania-chronicles-castlevania-chronicles-recomp"
     },
     {
       "id": "tenkaichi3-decomp",
@@ -1034,7 +1056,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%20Tenkaichi%203%20(USA)%20(En%2CJa).png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "dragon-ball-z-budokai-tenkaichi-3-tenkaichi3decomp"
     },
     {
       "id": "trx",
@@ -1071,7 +1094,8 @@
       },
       "install": "installer",
       "ai": "none",
-      "homepage": "https://lostartefacts.dev/"
+      "homepage": "https://lostartefacts.dev/",
+      "quiver": "tomb-raider-1-2-3-trx"
     },
     {
       "id": "uzdoom",
@@ -1106,7 +1130,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/DOOM/master/Named_Boxarts/Ultimate%20Doom%2C%20The.png"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "doom-uzdoom"
     },
     {
       "id": "opengoal",
@@ -1146,7 +1171,8 @@
         "%PROGRAMFILES%\\OpenGOAL-Launcher\\OpenGOAL-Launcher.exe"
       ],
       "ai": "none",
-      "homepage": "https://opengoal.dev/"
+      "homepage": "https://opengoal.dev/",
+      "quiver": "opengoal-launcher-opengoal-launcher"
     },
     {
       "id": "lost-odyssey-recomp",
@@ -1183,7 +1209,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/freefrank/LostOdysseyRecomp/HEAD/assets/lost-odyssey-recomp.png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "lostodyssey-lostodysseyrecompiled"
     },
     {
       "id": "bloodborne-pc",
@@ -1220,7 +1247,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/Supermedo/bloodborne_pc/HEAD/launcher/assets/emblem.png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "bloodborne-bloodborne-for-windows"
     },
     {
       "id": "takedawn",
@@ -1257,7 +1285,8 @@
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Burnout%203%20-%20Takedown%20(USA).png"
       },
       "install": "installer",
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "burnout-3-takedown-takedawn"
     },
     {
       "id": "ring-out",
@@ -1293,7 +1322,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/SoulCalibur%20II%20(USA).png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "soulcaliburii-ringout"
     },
     {
       "id": "pt-pc",
@@ -1329,7 +1359,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/LoreanXavier/pt-pc/HEAD/assets/pt.ico"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "p-t-p-t-for-pc"
     },
     {
       "id": "octr",
@@ -1366,7 +1397,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/Ryu7w7/OCTR-NitroFueled-PC/HEAD/docs/images/logo.png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "crash-team-racing-nitro-fueled-ctr-nitrofueled-pc-2"
     },
     {
       "id": "king-kong-recompiled",
@@ -1404,7 +1436,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/TekRantGaming/king-kong-recompiled/HEAD/docs/images/banner.jpg"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "peter-jackson-s-king-kong-the-official-game-of-the-movie-king-kong-pc-port"
     },
     {
       "id": "yakumo",
@@ -1441,7 +1474,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/TeamGDB/Yakumo/HEAD/docs/images/social-preview.png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "monsterhunterportable3rdhdver-yakumo"
     },
     {
       "id": "lantern-engine",
@@ -1477,7 +1511,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/Awakenchan/LanternEngine/HEAD/launcher/windows/BloodborneLauncher/lantern-j3loo.ico"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "bloodborne-bloodborne-pc"
     },
     {
       "id": "wind-waker-hd-recomp",
@@ -1514,7 +1549,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/HEAD/android/icon/app_icon_1024.png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "the-legend-of-zelda-the-wind-waker-hd-zeldawwhdrecomp"
     },
     {
       "id": "wwe-all-stars-recomp",
@@ -1551,7 +1587,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/shaneomac1337/WWE-AllStars-Recomp/HEAD/docs/images/banner.jpg"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "wwe-all-stars-wwe-all-stars-recomp"
     },
     {
       "id": "yugioh-fm-recompiled",
@@ -1586,7 +1623,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Yu-Gi-Oh%21%20Forbidden%20Memories%20(USA).png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "yu-gi-oh-forbidden-memories-yu-gi-oh-forbidden-memories-recompiled"
     },
     {
       "id": "opencmr2",
@@ -1620,7 +1658,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/pablocpas/OpenCMR2/HEAD/docs/logo.jpeg"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "colin-mcrae-rally-2-0-opencmr2"
     },
     {
       "id": "verdite2",
@@ -1655,7 +1694,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/King%27s%20Field%20(USA).png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "king-s-field-verdite2"
     },
     {
       "id": "hydro-thunder-port",
@@ -1691,7 +1731,8 @@
         "logo": "https://raw.githubusercontent.com/monscriser/HydroThunderPORT/HEAD/steam_art/logo.png",
         "boxart": "https://raw.githubusercontent.com/monscriser/HydroThunderPORT/HEAD/steam_art/grid.png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "hydro-thunder-hurricane-hydrothunderport"
     },
     {
       "id": "uncharted-ndc",
@@ -1727,7 +1768,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port/HEAD/launcher/assets/icon.png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "uncharted-the-nathan-drake-collection-uncharted-the-nathan-drake-collection-pc-p"
     },
     {
       "id": "second-hunt",
@@ -1778,7 +1820,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Metroid%20Prime%20-%20Hunters%20(USA).png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "metroid-prime-hunters-second-hunt"
     },
     {
       "id": "goldeneye-pc-port",
@@ -1820,7 +1863,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/GoldenEye%20007%20(USA).png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "goldeneye007-goldeneye007pcport"
     },
     {
       "id": "spartanport",
@@ -1857,7 +1901,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/FelipePrado0/SpartanPort/HEAD/packaging/icon/monogram.png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "god-of-war-iii-remastered-gow3-pc"
     },
     {
       "id": "edge-of-time-recomp",
@@ -1893,7 +1938,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/goliathret/EdgeOfTimeRecomp/HEAD/docs/image.png"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "spider-man-edge-of-time-edgeoftimerecompiled"
     },
     {
       "id": "renut",
@@ -1931,7 +1977,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/masterspike52/reNut/HEAD/icon/renut.png"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "banjokazooienutsandbolts-renut"
     },
     {
       "id": "nebula",
@@ -1966,7 +2013,8 @@
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Super%20Mario%20Galaxy%20(USA).png"
       },
       "install": "installer",
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "super-mario-galaxy-nebula"
     },
     {
       "id": "alien-resurrection-recomp",
@@ -2001,7 +2049,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Alien%20Resurrection%20(USA).png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "alien-resurrection-alienrerecomp"
     },
     {
       "id": "ttt2-pc",
@@ -2037,7 +2086,8 @@
         "logo": "https://raw.githubusercontent.com/shihabal3amri/tekken-tag-tournament-2-pc/HEAD/.github/assets/banner.png"
       },
       "install": "installer",
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "tekken-tag-tournament-2-tekken-tag-tournament-2-pc"
     },
     {
       "id": "dekui",
@@ -2072,7 +2122,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_3DS/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora's%20Mask%203D%20(USA)%20(En%2CFr%2CEs).png"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "the-legend-of-zelda-majora-s-mask-3d-mm3d-dekui"
     },
     {
       "id": "new-super-paper-bros",
@@ -2108,7 +2159,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Super%20Paper%20Mario%20(USA).png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "super-paper-mario-new-super-paper-bros"
     },
     {
       "id": "nsmbu-recomp",
@@ -2141,7 +2193,8 @@
         "method": "in-app",
         "instructions": "Abra o NSMBU.exe e siga o instalador: ele pede os arquivos do jogo e as chaves tiradas do seu Wii U."
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "new-super-mario-bros-u-nsmbu-recomp"
     },
     {
       "id": "athelas",
@@ -2177,7 +2230,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/Shagg88/Athelas/HEAD/launcher/art/icon_1024.png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "the-return-of-the-king-athelas"
     },
     {
       "id": "rush2-recompiled",
@@ -2219,7 +2273,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Rush%202%20-%20Extreme%20Racing%20USA%20(USA).png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "rush-2-extreme-racing-usa-rush2recompiled"
     },
     {
       "id": "fukami",
@@ -2254,7 +2309,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ridge%20Racer%20V%20(USA).png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "ridge-racer-v-fukami"
     },
     {
       "id": "clayfighter64",
@@ -2298,7 +2354,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/djultra64/ClayFighter64/HEAD/assets/branding/clayfighter64-cover.png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "clayfighter-64"
     },
     {
       "id": "dbz-burst-limit-recomp",
@@ -2334,7 +2391,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/iExplosiveRage/DBZ-Burst-Limit-Recompiled/HEAD/res/logo.png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "dragon-ball-z-burst-limit-dragon-ball-z-burst-limit-recompiled"
     },
     {
       "id": "ico-pc",
@@ -2370,7 +2428,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ico%20(USA).png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "ico-ico-pc"
     },
     {
       "id": "earthworm-jim-hd",
@@ -2406,7 +2465,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/TekRantGaming/earthworm-jim-hd-recompiled/HEAD/docs/images/game-title.jpg"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "earthworm-jim-hd-earthworm-jim-hd-recompiled"
     },
     {
       "id": "openttd-jgrpp",
@@ -2439,7 +2499,8 @@
         "logo": "https://raw.githubusercontent.com/OpenTTD/OpenTTD/850d05d24d4768c81d97765204ef2a487dd4972c/media/openttd.128.png"
       },
       "ai": "none",
-      "homepage": "https://www.openttd.org/"
+      "homepage": "https://www.openttd.org/",
+      "quiver": "openttd-openttd-patches"
     },
     {
       "id": "opentyrian",
@@ -2470,7 +2531,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/opentyrian/opentyrian/HEAD/linux/icons/tyrian-128.png"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "tyrian-opentyrian"
     },
     {
       "id": "rocket-r",
@@ -2511,7 +2573,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Rocket%20-%20Robot%20on%20Wheels%20(USA).png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "rocket-robot-on-wheels-rocket-r"
     },
     {
       "id": "openrct2",
@@ -2548,7 +2611,8 @@
         "logo": "https://raw.githubusercontent.com/OpenRCT2/OpenRCT2/develop/resources/logo/icon_x128.png"
       },
       "ai": "none",
-      "homepage": "https://openrct2.io/"
+      "homepage": "https://openrct2.io/",
+      "quiver": "rollercoaster-tycoon-2-openrct2"
     },
     {
       "id": "open-nectar",
@@ -2583,7 +2647,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Pikmin%20(USA).png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "pikmin-opennectar"
     },
     {
       "id": "reblue",
@@ -2618,7 +2683,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/zolaware/reblue/HEAD/res/reblue.ico"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "bluedragon-reblue"
     },
     {
       "id": "zelda3-launcher",
@@ -2660,7 +2726,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20(USA).png"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "thelegendofzeldaalinktothepast-snesrevzelda3launcher"
     },
     {
       "id": "retip",
@@ -2695,7 +2762,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/SolarCookies/TiP-Recomp/HEAD/icon/app.ico"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "vivapinatatroubleinparadise-vivapinatatroubleinparadiserecompiled"
     },
     {
       "id": "weltall",
@@ -2729,7 +2797,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Xenogears%20(USA).png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "xenogears-weltall"
     },
     {
       "id": "jfg-recomp",
@@ -2773,7 +2842,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Jet%20Force%20Gemini%20(USA).png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "jet-force-gemini-jetforcegemini-recomp"
     },
     {
       "id": "vf2-recomp",
@@ -2808,7 +2878,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/mr-finster/vf2-recomp/HEAD/assets/icon/icon.png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "virtua-fighter-2-virtua-fighter-2-recomp"
     },
     {
       "id": "geometry-wars-re2",
@@ -2841,7 +2912,8 @@
         "method": "in-app",
         "instructions": "Abra o port e, na página Play, instale a partir do seu pacote; espere aparecer \"Ready to play\"."
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "geometry-wars-retro-evolved-2-geometry-wars-retro-evolved-2-pc-port"
     },
     {
       "id": "birdman64",
@@ -2882,7 +2954,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Pilotwings%2064%20(USA).png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "pilotwings-64-birdman64"
     },
     {
       "id": "snap64-recomp",
@@ -2924,7 +2997,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Pokemon%20Snap%20(USA).png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "pokemonsnap-snap64recomp"
     },
     {
       "id": "silent-hill-pc",
@@ -2960,7 +3034,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Silent%20Hill%20(USA).png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "silenthill-silenthillnativepcport"
     },
     {
       "id": "ape-escape-recomp",
@@ -2995,7 +3070,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Ape%20Escape%20(USA).png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "apeescape-apeescaperecomp"
     },
     {
       "id": "hwder",
@@ -3026,7 +3102,8 @@
         "method": "in-app",
         "instructions": "Coloque o .nsp e o prod.keys ao lado do hwder.exe (botão \"Abrir pasta\"); o prod.keys também é lido da pasta do yuzu/Ryujinx."
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "hyrule-warriors-definitive-edition-hyrule-warriors-definitive-edition-recomp-hwd"
     },
     {
       "id": "las-recomp",
@@ -3061,7 +3138,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/peiikai/LASRecomp/HEAD/docs/start_screen.jpg"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "the-legend-of-zelda-links-awakening-lasrecomp"
     },
     {
       "id": "pinyon-shift",
@@ -3097,7 +3175,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/arcanite24/pinyon-shift/HEAD/.github/pinyon-shift-banner.png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "forza-horizon-pinyon-shift"
     },
     {
       "id": "devilutionx",
@@ -3133,7 +3212,8 @@
         "logo": "https://raw.githubusercontent.com/diasurgical/DevilutionX/HEAD/Packaging/resources/icon.png"
       },
       "ai": "assisted",
-      "homepage": "https://github.com/diasurgical/DevilutionX"
+      "homepage": "https://github.com/diasurgical/DevilutionX",
+      "quiver": "diablo-devilutionx"
     },
     {
       "id": "wwe2k14-pc",
@@ -3169,7 +3249,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/itsbybanshee/wwe2k14-pc/HEAD/res/wwe2k14.png"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "wwe-2k14-wwe2k14-pc"
     },
     {
       "id": "project-picori",
@@ -3219,7 +3300,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Minish%20Cap%20(USA).png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "thelegendofzeldatheminishcap-projectpicori"
     },
     {
       "id": "dragons-crown-pro-pc",
@@ -3253,7 +3335,8 @@
         "method": "in-app",
         "instructions": "Abra o port e, na página Play, clique em \"Install game...\" e escolha o seu .pkg."
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "dragon-s-crown-pro-dragon-s-crown-pro-pc-port"
     },
     {
       "id": "driveclub-recomp",
@@ -3288,7 +3371,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/OverkillLabs3/driveclub-recomp/HEAD/launcher/driveclub.ico"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "driveclub-driveclub-recomp"
     },
     {
       "id": "infamous-second-son-pc",
@@ -3324,7 +3408,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/HayatoG/iss_pc/HEAD/port/packaging/icon/infamous-icon-1024.png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "infamous-second-son-iss-pc"
     },
     {
       "id": "sotc-pc",
@@ -3361,7 +3446,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/AjncSystem/ShadowOfTheColossus-PC/HEAD/launcher/window_icon.png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "shadow-of-the-colossus-shadowofthecolossus-pc"
     },
     {
       "id": "the-last-guardian-pc",
@@ -3397,7 +3483,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/HayatoG/tlg_pc/HEAD/port/packaging/icon/tlg-icon-1024.png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "the-last-guardian-the-last-guardian-native-pc-port"
     },
     {
       "id": "shaolin-monks-recomp",
@@ -3435,7 +3522,8 @@
         "logo": "https://raw.githubusercontent.com/OAleex/ShaolinMonksRecomp/HEAD/docs/images/shaolin-monks-recomp.png",
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Mortal%20Kombat%20-%20Shaolin%20Monks%20(USA).png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "mortal-kombat-shaolin-monks-shaolinmonksrecomp"
     },
     {
       "id": "openmw",
@@ -3472,7 +3560,8 @@
       },
       "install": "installer",
       "ai": "none",
-      "homepage": "https://openmw.org/"
+      "homepage": "https://openmw.org/",
+      "quiver": "the-elder-scrolls-iii-morrowind-openmw"
     },
     {
       "id": "atomic-bomberman-modern",
@@ -3505,7 +3594,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/elraro/atomic-bomberman/HEAD/docs/images/menu.png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "atomic-bomberman-atomic-bomberman-modern"
     },
     {
       "id": "urbz-recomp",
@@ -3541,7 +3631,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Urbz%2C%20The%20-%20Sims%20in%20the%20City%20(USA).png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "the-urbz-sims-in-the-city-urbz-recomp"
     },
     {
       "id": "tony-was-a-pro-skater",
@@ -3576,7 +3667,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Tony%20Hawk's%20Pro%20Skater%20(USA).png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "tony-hawk-s-pro-skater-tony-was-a-pro-skater"
     },
     {
       "id": "cybermage",
@@ -3611,7 +3703,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/lodilorenzo/cybermage-darklight-re-awakening/HEAD/docs/img/title.png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "cybermage-darklight-awakening-cybermage-darklight-re-awakening-2"
     },
     {
       "id": "urbanrecomp",
@@ -3647,7 +3740,8 @@
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/SimCity%20(USA).png"
       },
       "install": "portable",
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "simcity-urbanrecomp-enhanced"
     },
     {
       "id": "svr2011-pc",
@@ -3684,7 +3778,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/KaikoClanworth1/wwe-svr2011-pc/HEAD/docs/screenshots/title.jpg"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "wwe-smackdown-vs-raw-2011-wwe-svr2011-pc"
     },
     {
       "id": "power-dozer",
@@ -3725,7 +3820,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Blast%20Corps%20(USA)%20(Rev%201).png"
       },
-      "ai": "generated"
+      "ai": "generated",
+      "quiver": "blast-corps-power-dozer"
     },
     {
       "id": "snowboard-kids-recomp",
@@ -3767,7 +3863,8 @@
       "art": {
         "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Snowboard%20Kids%20(USA).png"
       },
-      "ai": "assisted"
+      "ai": "assisted",
+      "quiver": "snowboard-kids-snowboard-kids-recompiled"
     },
     {
       "id": "aerofoil",
@@ -3798,7 +3895,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/elasota/Aerofoil/HEAD/AerofoilMac/AerofoilMac/Assets.xcassets/AppIcon.appiconset/256.png"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "glider-pro-aerofoil"
     },
     {
       "id": "heretic2r",
@@ -3833,7 +3931,8 @@
       "art": {
         "logo": "https://raw.githubusercontent.com/m-x-d/Heretic2R/HEAD/src/launcher/icon.ico"
       },
-      "ai": "none"
+      "ai": "none",
+      "quiver": "heretic-ii-heretic2r"
     }
   ]
 }

@@ -128,7 +128,13 @@
           },
           "additionalProperties": false
         },
-        "homepage": { "type": "string", "pattern": "^https://" }
+        "homepage": { "type": "string", "pattern": "^https://" },
+        "quiver": {
+          "description": "Slug da página do port no Quiver Launcher (o que vem depois de quiverlauncher.com/apps/). O app mostra o botão \"Ver no Quiver\".",
+          "type": "string",
+          "maxLength": 150,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        }
       },
       "additionalProperties": false
     }
