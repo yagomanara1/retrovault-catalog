@@ -1,0 +1,3839 @@
+{
+  "$schema": "./catalog.schema.json",
+  "schemaVersion": 1,
+  "ports": [
+    {
+      "id": "shipwright",
+      "name": "Ship of Harkinian",
+      "original": {
+        "title": "The Legend of Zelda: Ocarina of Time",
+        "platform": "n64"
+      },
+      "developer": "HarbourMasters",
+      "summary": "Ocarina of Time nativo no PC, com widescreen, alta taxa de quadros e muitas melhorias.",
+      "description": "Port feito a partir da decompilação do jogo. Na primeira execução ele lê a sua ROM e gera os arquivos de que precisa. Suporta controle, mods, texturas em alta resolução e um modo randomizer.",
+      "tags": [
+        "Zelda",
+        "Aventura",
+        "Randomizer",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "HarbourMasters/Shipwright"
+      },
+      "assets": {
+        "windows": "Win64\\.zip$"
+      },
+      "executable": "soh.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de Ocarina of Time (Nintendo 64 ou GameCube)"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "NTSC 1.0 (EUA)",
+            "sha1": "ad69c91157f6705e8ab06c79fe08aad47bb57ba7"
+          },
+          {
+            "name": "NTSC 1.1 (EUA)",
+            "sha1": "d3ecb253776cd847a5aa63d859d8c89a2f37b364"
+          },
+          {
+            "name": "NTSC 1.2 (EUA)",
+            "sha1": "41b3bdc48d98c48529219919015a1af22f5057c2"
+          },
+          {
+            "name": "NTSC 1.0 (Japão)",
+            "sha1": "c892bbda3993e66bd0d56a10ecd30b1ee612210f"
+          },
+          {
+            "name": "NTSC 1.1 (Japão)",
+            "sha1": "dbfc81f655187dc6fefd93fa6798face770d579d"
+          },
+          {
+            "name": "NTSC 1.2 (Japão)",
+            "sha1": "fa5f5942b27480d60243c2d52c0e93e26b9e6b86"
+          },
+          {
+            "name": "PAL 1.0",
+            "sha1": "328a1f1beba30ce5e178f031662019eb32c5f3b5"
+          },
+          {
+            "name": "PAL 1.1",
+            "sha1": "cfbb98d392e4a9d39da8285d10cbef3974c2f012"
+          },
+          {
+            "name": "GameCube NTSC (EUA)",
+            "sha1": "b82710ba2bd3b4c6ee8aa1a7e9acf787dfc72e9b"
+          },
+          {
+            "name": "GameCube NTSC (Japão)",
+            "sha1": "0769c84615422d60f16925cd859593cdfa597f84"
+          },
+          {
+            "name": "GameCube NTSC (Japão, Collector's Edition)",
+            "sha1": "2ce2d1a9f0534c9cd9fa04ea5317b80da21e5e73"
+          },
+          {
+            "name": "GameCube PAL",
+            "sha1": "0227d7c0074f2d0ac935631990da8ec5914597b4"
+          },
+          {
+            "name": "Master Quest NTSC (EUA)",
+            "sha1": "8b5d13aac69bfbf989861cfdc50b1d840945fc1d"
+          },
+          {
+            "name": "Master Quest NTSC (Japão)",
+            "sha1": "dd14e143c4275861fe93ea79d0c02e36ae8c6c2f"
+          },
+          {
+            "name": "Master Quest PAL",
+            "sha1": "f46239439f59a2a594ef83cf68ef65043b1bffe2"
+          },
+          {
+            "name": "PAL GameCube (Debug)",
+            "sha1": "cee6bc3c2a634b41728f2af8da54d9bf8cc14099"
+          },
+          {
+            "name": "Master Quest PAL (Debug)",
+            "sha1": "079b855b943d6ad8bd1eb026c0ed169ecbdac7da"
+          },
+          {
+            "name": "Master Quest PAL (Debug)",
+            "sha1": "50bebedad9e0f10746a52b07239e47fa6c284d03"
+          },
+          {
+            "name": "Master Quest PAL (Debug)",
+            "sha1": "cfecfdc58d650e71a200c81f033de4e6d617a9f6"
+          }
+        ],
+        "instructions": "Na primeira vez que abrir, o Ship of Harkinian pede a ROM e gera o arquivo oot.o2r (leva alguns minutos)."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/HarbourMasters/Shipwright/develop/docs/shiptitle.darkmode.png",
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Ocarina%20of%20Time%20(USA).png"
+      },
+      "mods": {
+        "gamebanana": 16121,
+        "folder": "mods",
+        "extensions": [
+          ".otr",
+          ".o2r"
+        ]
+      },
+      "homepage": "https://www.shipofharkinian.com"
+    },
+    {
+      "id": "2ship2harkinian",
+      "name": "2 Ship 2 Harkinian",
+      "original": {
+        "title": "The Legend of Zelda: Majora's Mask",
+        "platform": "n64"
+      },
+      "developer": "HarbourMasters",
+      "summary": "Majora's Mask nativo no PC, da mesma equipe do Ship of Harkinian.",
+      "description": "Port feito a partir da decompilação do jogo, com widescreen, alta taxa de quadros, melhorias de qualidade de vida e suporte a mods.",
+      "tags": [
+        "Zelda",
+        "Aventura",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "2ship2harkinian/2ship2harkinian"
+      },
+      "assets": {
+        "windows": "Win64\\.zip$"
+      },
+      "executable": "2ship.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de Majora's Mask (Nintendo 64 ou GameCube, versão americana)"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "NTSC-U 1.0 (EUA)",
+            "sha1": "d6133ace5afaa0882cf214cf88daba39e266c078"
+          },
+          {
+            "name": "GameCube NTSC-U (EUA)",
+            "sha1": "9743aa026e9269b339eb0e3044cd5830a440c1fd"
+          }
+        ],
+        "instructions": "Na primeira vez que abrir, o 2 Ship 2 Harkinian pede a ROM e gera o arquivo mm.o2r."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora%27s%20Mask%20(USA).png"
+      },
+      "mods": {
+        "gamebanana": 20371,
+        "folder": "mods",
+        "extensions": [
+          ".o2r",
+          ".otr"
+        ]
+      }
+    },
+    {
+      "id": "zelda64recomp",
+      "name": "Zelda 64: Recompiled",
+      "original": {
+        "title": "The Legend of Zelda: Majora's Mask",
+        "platform": "n64"
+      },
+      "developer": "Zelda64Recomp",
+      "summary": "Majora's Mask recompilado para PC, com renderização moderna e suporte a mods.",
+      "description": "Recompilação estática do jogo para código nativo, usando o renderizador RT64. Tem widescreen, taxas de quadros altas, giroscópio e um sistema de mods próprio.",
+      "tags": [
+        "Zelda",
+        "Aventura",
+        "Recompilação",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "Zelda64Recomp/Zelda64Recomp"
+      },
+      "assets": {
+        "windows": "Windows\\.zip$"
+      },
+      "executable": "Zelda64Recompiled.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de Majora's Mask (Nintendo 64, versão americana)"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "NTSC-U 1.0 (EUA)",
+            "sha1": "d6133ace5afaa0882cf214cf88daba39e266c078"
+          }
+        ],
+        "instructions": "Ao abrir, use o botão de selecionar ROM no menu inicial do jogo; ele guarda a ROM e não pede de novo."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora%27s%20Mask%20(USA).png"
+      }
+    },
+    {
+      "id": "banjorecomp",
+      "name": "Banjo: Recompiled",
+      "original": {
+        "title": "Banjo-Kazooie",
+        "platform": "n64"
+      },
+      "developer": "BanjoRecomp",
+      "summary": "Banjo-Kazooie recompilado para PC, com o mesmo motor do Zelda 64: Recompiled.",
+      "description": "Recompilação estática do jogo para código nativo, com renderização moderna (RT64), widescreen e altas taxas de quadros.",
+      "tags": [
+        "Plataforma",
+        "Recompilação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "BanjoRecomp/BanjoRecomp"
+      },
+      "assets": {
+        "windows": "Windows\\.zip$"
+      },
+      "executable": "BanjoRecompiled.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de Banjo-Kazooie (Nintendo 64, americana 1.0)"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "EUA 1.0",
+            "header": {
+              "code": "NBKE",
+              "version": 0
+            }
+          }
+        ],
+        "instructions": "Ao abrir, use o botão de selecionar ROM no menu inicial do jogo; ele guarda a ROM e não pede de novo."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Banjo-Kazooie%20(USA).png"
+      }
+    },
+    {
+      "id": "starship",
+      "name": "Starship",
+      "original": {
+        "title": "Star Fox 64",
+        "platform": "n64"
+      },
+      "developer": "HarbourMasters",
+      "summary": "Star Fox 64 nativo no PC, com widescreen e alta taxa de quadros.",
+      "description": "Port feito a partir da decompilação do jogo, da mesma equipe do Ship of Harkinian.",
+      "tags": [
+        "Nave",
+        "Ação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "HarbourMasters/Starship"
+      },
+      "assets": {
+        "windows": "Windows\\.zip$"
+      },
+      "executable": "Starship.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de Star Fox 64 (Nintendo 64, americana 1.0 ou 1.1), em .z64"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "EUA 1.0",
+            "sha1": "d8b1088520f7c5f81433292a9258c1184afa1457"
+          },
+          {
+            "name": "EUA 1.1",
+            "sha1": "09f0d105f476b00efa5303a3ebc42e60a7753b7a"
+          }
+        ],
+        "instructions": "Na primeira vez que abrir, o Starship pede a ROM (precisa ser .z64) e gera o arquivo sf64.o2r."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Star%20Fox%2064%20(USA).png"
+      },
+      "mods": {
+        "gamebanana": 21612,
+        "folder": "mods",
+        "extensions": [
+          ".o2r",
+          ".otr"
+        ]
+      }
+    },
+    {
+      "id": "spaghettikart",
+      "name": "SpaghettiKart",
+      "original": {
+        "title": "Mario Kart 64",
+        "platform": "n64"
+      },
+      "developer": "HarbourMasters",
+      "summary": "Mario Kart 64 nativo no PC, com widescreen e pistas personalizadas.",
+      "description": "Port feito a partir da decompilação do jogo, com alta resolução, alta taxa de quadros e suporte a mods.",
+      "tags": [
+        "Corrida",
+        "Multijogador local",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "HarbourMasters/SpaghettiKart"
+      },
+      "assets": {
+        "windows": "windows\\.zip$"
+      },
+      "executable": "Spaghettify.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de Mario Kart 64 (Nintendo 64, americana), em .z64"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "EUA",
+            "sha1": "579c48e211ae952530ffc8738709f078d5dd215e"
+          }
+        ],
+        "instructions": "Na primeira vez que abrir, o SpaghettiKart pede a ROM (precisa ser .z64) e gera o arquivo mk64.o2r."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/HarbourMasters/SpaghettiKart/main/docs/spaghettigithubnight.png",
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Mario%20Kart%2064%20(USA).png"
+      },
+      "mods": {
+        "gamebanana": 22970,
+        "folder": "mods",
+        "extensions": [
+          ".o2r"
+        ]
+      }
+    },
+    {
+      "id": "sm64coopdx",
+      "name": "sm64coopdx",
+      "original": {
+        "title": "Super Mario 64",
+        "platform": "n64"
+      },
+      "developer": "Coop Deluxe",
+      "summary": "Super Mario 64 no PC com multijogador online e mods em Lua.",
+      "description": "Port baseado na decompilação do jogo, com cooperativo online para vários jogadores, personagens extras e uma grande biblioteca de mods.",
+      "tags": [
+        "Plataforma",
+        "Online",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "coop-deluxe/sm64coopdx"
+      },
+      "assets": {
+        "windows": "Windows\\.zip$"
+      },
+      "executable": "sm64coopdx.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de Super Mario 64 (Nintendo 64, versão americana)"
+      },
+      "setup": {
+        "method": "copy",
+        "target": "baserom.us.z64",
+        "accepted": [
+          {
+            "name": "EUA",
+            "md5": "20b854b239203baf6c961b850a4a51a2"
+          }
+        ],
+        "instructions": "O RetroVault coloca a ROM conferida na pasta do jogo; é só abrir."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/coop-deluxe/sm64coopdx/main/textures/segment2/custom_coopdx_logo.rgba32.png",
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Mario%2064%20(USA).png"
+      }
+    },
+    {
+      "id": "perfect-dark",
+      "name": "Perfect Dark (port para PC)",
+      "original": {
+        "title": "Perfect Dark",
+        "platform": "n64"
+      },
+      "developer": "Perfect Dark PC Port",
+      "summary": "Perfect Dark nativo no PC, com mouse e teclado, widescreen e alta taxa de quadros.",
+      "description": "Port feito a partir da decompilação do jogo. As versões são compilações de desenvolvimento publicadas automaticamente.",
+      "tags": [
+        "Tiro",
+        "Ação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "perfect-dark-pc-port/perfect_dark"
+      },
+      "assets": {
+        "windows": "x86_64-windows\\.zip$"
+      },
+      "executable": "pd.x86_64.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de Perfect Dark (Nintendo 64, americana 1.1 \"final\")"
+      },
+      "setup": {
+        "method": "copy",
+        "target": "data/pd.ntsc-final.z64",
+        "accepted": [
+          {
+            "name": "EUA 1.1 (ntsc-final)",
+            "md5": "e03b088b6ac9e0080440efed07c1e40f"
+          }
+        ],
+        "instructions": "O RetroVault coloca a ROM conferida em data\\pd.ntsc-final.z64, onde o port procura; é só abrir."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Perfect%20Dark%20(USA).png"
+      }
+    },
+    {
+      "id": "unleashedrecomp",
+      "name": "Unleashed Recompiled",
+      "original": {
+        "title": "Sonic Unleashed",
+        "platform": "xbox",
+        "system": "Xbox 360"
+      },
+      "developer": "hedge-dev",
+      "summary": "Sonic Unleashed (Xbox 360) recompilado para PC, com 60 FPS ou mais e widescreen.",
+      "description": "Recompilação estática da versão de Xbox 360. Um instalador próprio pede os arquivos do jogo, a atualização do título e as DLCs (opcionais).",
+      "tags": [
+        "Ação",
+        "Plataforma",
+        "Recompilação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "hedge-dev/UnleashedRecomp"
+      },
+      "assets": {
+        "windows": "Windows\\.zip$"
+      },
+      "executable": "UnleashedRecomp.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Arquivos do jogo de Xbox 360 (do seu disco ou dump)",
+        "note": "Arquivos modificados não são aceitos pelo instalador."
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Ao abrir pela primeira vez, um instalador próprio pede os arquivos do jogo de Xbox 360 (contêiner ou pasta extraída)."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/hedge-dev/UnleashedRecompResources/refs/heads/main/images/logo/Logo.png"
+      }
+    },
+    {
+      "id": "conker-reloaded",
+      "name": "Conker: BFD Reloaded",
+      "original": {
+        "title": "Conker's Bad Fur Day",
+        "platform": "n64"
+      },
+      "developer": "DahSidiAbdallah",
+      "summary": "Conker's Bad Fur Day nativo no PC, com widescreen, alta taxa de quadros e suporte a traduções.",
+      "description": "Recompilação do jogo para código nativo. Aceita a ROM americana e também ROM hacks que mantêm o código do jogo (traduções, versão sem censura).",
+      "tags": [
+        "Plataforma",
+        "Recompilação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "DahSidiAbdallah/ConkerBFDReloaded"
+      },
+      "assets": {
+        "windows": "Windows\\.zip$"
+      },
+      "executable": "ConkerBFDReloaded.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de Conker's Bad Fur Day (Nintendo 64, americana)"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "EUA",
+            "sha1": "4cbadd3c4e0729dec46af64ad018050eada4f47a"
+          }
+        ],
+        "instructions": "Na primeira vez que abrir, escolha a ROM no próprio jogo; ele lembra depois."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Conker%27s%20Bad%20Fur%20Day%20(USA).png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "dusklight",
+      "name": "Dusklight",
+      "original": {
+        "title": "The Legend of Zelda: Twilight Princess",
+        "platform": "gamecube"
+      },
+      "developer": "TwilitRealm",
+      "summary": "Twilight Princess nativo no PC, feito a partir da decompilação da versão de GameCube.",
+      "description": "Port baseado na decompilação de Twilight Princess. Aceita os discos comerciais de GameCube e de Wii (menos o coreano); mesmo com o disco de Wii, a interface é a da versão de GameCube.",
+      "tags": [
+        "Zelda",
+        "Aventura"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "TwilitRealm/dusklight"
+      },
+      "assets": {
+        "windows": "win32-x86_64\\.zip$"
+      },
+      "executable": "dusklight.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Imagem do disco de Twilight Princess (GameCube ou Wii), em .iso ou .rvz",
+        "note": "O disco coreano de Wii não é aceito."
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Ao abrir, o Dusklight pede a imagem do disco (.iso ou .rvz) feita do seu próprio jogo."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Twilight%20Princess%20(USA).png"
+      },
+      "ai": "none",
+      "homepage": "https://twilitrealm.dev/install/"
+    },
+    {
+      "id": "ghostship",
+      "name": "Ghostship",
+      "original": {
+        "title": "Super Mario 64",
+        "platform": "n64"
+      },
+      "developer": "HarbourMasters",
+      "summary": "Super Mario 64 nativo no PC, da equipe do Ship of Harkinian, com widescreen e mods.",
+      "description": "Port feito a partir da decompilação do jogo. Na primeira execução ele lê a sua ROM e gera os arquivos de que precisa.",
+      "tags": [
+        "Plataforma",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "harbourmasters/ghostship"
+      },
+      "assets": {
+        "windows": "Win64\\.zip$"
+      },
+      "executable": "Ghostship.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de Super Mario 64 (Nintendo 64, americana ou japonesa), em .z64"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "EUA",
+            "sha1": "9bef1128717f958171a4afac3ed78ee2bb4e86ce"
+          },
+          {
+            "name": "Japão",
+            "sha1": "8a20a5c83d6ceb0f0506cfc9fa20d8f438cafe51"
+          }
+        ],
+        "instructions": "Na primeira vez que abrir, o Ghostship pede a ROM (precisa ser .z64) e gera o arquivo sm64.o2r."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Mario%2064%20(USA).png"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "dk64-recompiled",
+      "name": "Donkey Kong 64: Recompiled",
+      "original": {
+        "title": "Donkey Kong 64",
+        "platform": "n64"
+      },
+      "developer": "Rainchus",
+      "summary": "Donkey Kong 64 recompilado para PC, com o mesmo motor do Zelda 64: Recompiled.",
+      "description": "Recompilação estática do jogo para código nativo, com renderização moderna (RT64), widescreen e carregamentos instantâneos.",
+      "tags": [
+        "Plataforma",
+        "Recompilação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "Rainchus/Donkey-Kong-64-Recompiled"
+      },
+      "assets": {
+        "windows": "Windows-Release.*\\.zip$"
+      },
+      "executable": "DK64Recompiled.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de Donkey Kong 64 (Nintendo 64, americana)"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "EUA",
+            "header": {
+              "code": "NDOE",
+              "version": 0
+            }
+          }
+        ],
+        "instructions": "Ao abrir, use o botão de selecionar ROM no menu inicial do jogo; ele guarda a ROM e não pede de novo."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Donkey%20Kong%2064%20(USA).png"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "golden-balloon",
+      "name": "Golden Balloon",
+      "original": {
+        "title": "Diddy Kong Racing",
+        "platform": "n64"
+      },
+      "developer": "akratch",
+      "summary": "Diddy Kong Racing nativo no PC, com a versão europeia no tempo e no som originais.",
+      "description": "Recompilação do jogo para código nativo, com apresentação \"Remastered\" opcional (iluminação, sombras e textos nítidos). Aceita só as revisões 1.1, americana e europeia.",
+      "tags": [
+        "Corrida",
+        "Multijogador local",
+        "Recompilação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "akratch/goldenballoon"
+      },
+      "assets": {
+        "windows": "windows-x64\\.zip$"
+      },
+      "executable": "GoldenBalloon.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de Diddy Kong Racing (Nintendo 64, revisão 1.1 americana ou europeia)"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "EUA 1.1",
+            "header": {
+              "code": "NDYE",
+              "version": 1
+            }
+          },
+          {
+            "name": "Europa 1.1",
+            "header": {
+              "code": "NDYP",
+              "version": 1
+            }
+          }
+        ],
+        "instructions": "Na primeira vez que abrir, o jogo abre um seletor para você escolher a ROM."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Diddy%20Kong%20Racing%20(USA)%20(En%2CFr).png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "project-midas",
+      "name": "Project Midas",
+      "original": {
+        "title": "GoldenEye 007",
+        "platform": "n64"
+      },
+      "developer": "murkantor",
+      "summary": "GoldenEye 007 nativo no PC (em desenvolvimento), feito a partir da decompilação do jogo.",
+      "description": "Port de GoldenEye 007 baseado na decompilação do jogo, com ajustes de controle e configurações no arquivo midas.ini.",
+      "tags": [
+        "Tiro",
+        "Ação",
+        "Multijogador local"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "murkantor/Project-Midas"
+      },
+      "assets": {
+        "windows": "windows\\.7z$"
+      },
+      "executable": "ProjectMidas.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de GoldenEye 007 (Nintendo 64, americana)"
+      },
+      "setup": {
+        "method": "copy",
+        "target": "Data/baserom.u.z64",
+        "accepted": [
+          {
+            "name": "EUA",
+            "sha1": "abe01e4aeb033b6c0836819f549c791b26cfde83"
+          }
+        ],
+        "instructions": "O RetroVault coloca a ROM conferida em Data\\baserom.u.z64, onde o port procura; é só abrir."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/GoldenEye%20007%20(USA).png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "metroid-prime-port",
+      "name": "Metroid Prime Port",
+      "original": {
+        "title": "Metroid Prime",
+        "platform": "gamecube"
+      },
+      "developer": "Odrannnn",
+      "summary": "Metroid Prime nativo no PC, com opção \"Remastered\" e importação de saves.",
+      "description": "Port de Metroid Prime para PC. Importa e exporta saves de GameCube (EUA e Europa), da Trilogia de Wii e do Dolphin, e tem um modo de visual remasterizado.",
+      "tags": [
+        "Ação",
+        "Aventura"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "Odrannnn/MetroidPrimePort"
+      },
+      "assets": {
+        "windows": "windows-x86_64\\.zip$"
+      },
+      "executable": "metroid_prime_port.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Imagem do disco de Metroid Prime (GameCube americano 1.00–1.02 ou europeu)",
+        "note": "Formatos .iso, .gcm, .rvz, .wbfs, .ciso ou .nkit. Japonês, coreano e a Trilogia de Wii não são aceitos."
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Na primeira vez que abrir, o port pede a imagem do disco e lembra a escolha."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Metroid%20Prime%20(USA).png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "strikers",
+      "name": "Strikers",
+      "original": {
+        "title": "Super Mario Strikers",
+        "platform": "gamecube"
+      },
+      "developer": "new-coke",
+      "summary": "Super Mario Strikers nativo no PC, com as versões americana, europeia e japonesa num só programa.",
+      "description": "Port de Super Mario Strikers que lê a imagem do disco direto (ISO, GCM, CISO, GCZ ou pasta extraída), com saves e idiomas por região.",
+      "tags": [
+        "Esporte",
+        "Multijogador local"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "new-coke/strikers"
+      },
+      "assets": {
+        "windows": "windows-x86_64\\.zip$"
+      },
+      "executable": "strikers.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Imagem do disco de Super Mario Strikers (GameCube: EUA, Europa ou Japão)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Ao abrir, escolha a imagem do disco (ou a pasta extraída) do seu jogo."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Super%20Mario%20Strikers%20(USA).png"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "recharged",
+      "name": "Recharged",
+      "original": {
+        "title": "Mario Strikers Charged",
+        "platform": "wii"
+      },
+      "developer": "previouslevelgames",
+      "summary": "Mario Strikers Charged nativo no PC, com um iniciador que confere o disco e guarda as configurações.",
+      "description": "Port de Mario Strikers Charged que lê a imagem do disco de onde você guarda. O iniciador confere o disco e se atualiza sozinho quando você aceita.",
+      "tags": [
+        "Esporte",
+        "Multijogador local"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "previouslevelgames/recharged"
+      },
+      "assets": {
+        "windows": "windows-x86_64\\.zip$"
+      },
+      "executable": "recharged.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Imagem do disco de Mario Strikers Charged (Wii americano R4QE01 revisão 1, ou europeu), em .iso, .rvz ou .wbfs"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Ao abrir, o iniciador pede a imagem do disco e confere se é uma versão aceita."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Mario%20Strikers%20Charged%20(USA).png"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "sms-launcher",
+      "name": "SMS Launcher",
+      "original": {
+        "title": "Super Mario Sunshine",
+        "platform": "gamecube"
+      },
+      "developer": "chasem-dev",
+      "summary": "Super Mario Sunshine nativo no PC: o iniciador monta o port a partir do seu disco.",
+      "description": "Versão portátil do iniciador (um .exe só, nada é instalado no Windows). Ele confere o disco, compila o port no seu PC e guarda tudo numa pasta ao lado do .exe.",
+      "tags": [
+        "Plataforma",
+        "Aventura"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "chasem-dev/sms-launcher"
+      },
+      "assets": {
+        "windows": "win-portable\\.exe$"
+      },
+      "requires": {
+        "kind": "game-files",
+        "label": "Imagem do disco de Super Mario Sunshine (GameCube americano GMSE01, revisão 0), em .iso, .gcm ou .ciso"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "No iniciador, escolha a imagem do disco; ele confere o arquivo e prepara o jogo na primeira vez."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Super%20Mario%20Sunshine%20(USA).png"
+      },
+      "install": "portable",
+      "ai": "assisted"
+    },
+    {
+      "id": "symphony-recomp",
+      "name": "SymphonyRecomp",
+      "original": {
+        "title": "Castlevania: Symphony of the Night",
+        "platform": "playstation"
+      },
+      "developer": "BlackLabelHQ",
+      "summary": "Castlevania: Symphony of the Night recompilado para PC, com temas, idiomas e interface nova.",
+      "description": "Recompilação do jogo de PlayStation feita com uma ferramenta própria (o projeto declara que não usa IA). Ainda em beta: pode ter bugs graves antes da versão 1.0.",
+      "tags": [
+        "Ação",
+        "Metroidvania",
+        "Recompilação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "BlackLabelHQ/SymphonyRecomp"
+      },
+      "assets": {
+        "windows": "windows-x64\\.zip$"
+      },
+      "executable": "sotn.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Disco americano de Castlevania: Symphony of the Night (PlayStation), em bin/cue ou CHD",
+        "note": "Precisa do .NET 10 (runtime) instalado no Windows; sem ele o jogo não abre."
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Use \"Abrir pasta\", crie a pasta \"disc\" e coloque o disco com estes nomes: \"Castlevania - Symphony of the Night (USA).cue\" e as faixas \"(Track 1).bin\" e \"(Track 2).bin\"."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Castlevania%20-%20Symphony%20of%20the%20Night%20(USA).png"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "medievil-recomp",
+      "name": "MediEvilRecomp",
+      "original": {
+        "title": "MediEvil",
+        "platform": "playstation"
+      },
+      "developer": "BlackLabelHQ",
+      "summary": "MediEvil recompilado para PC, da mesma equipe do SymphonyRecomp.",
+      "description": "Recompilação do jogo de PlayStation com renderização corrigida para widescreen e opção de visual melhorado. Ainda em beta.",
+      "tags": [
+        "Ação",
+        "Aventura",
+        "Recompilação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "BlackLabelHQ/MediEvilRecomp"
+      },
+      "assets": {
+        "windows": "windows-x64\\.zip$"
+      },
+      "executable": "medievil.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Disco americano de MediEvil (PlayStation), em bin/cue ou CHD",
+        "note": "Precisa do .NET 10 (runtime) e, de preferência, do OpenAL instalados no Windows."
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Use \"Abrir pasta\", crie a pasta \"disc\" e coloque o disco com estes nomes: \"MediEvil (USA).cue\" e as faixas \"(Track 1).bin\" e \"(Track 2).bin\"."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/MediEvil%20(USA).png"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "castlevania-chronicles",
+      "name": "Castlevania Chronicles Recomp",
+      "original": {
+        "title": "Castlevania Chronicles",
+        "platform": "playstation"
+      },
+      "developer": "Spicywonda",
+      "summary": "Castlevania Chronicles recompilado para PC, com um iniciador para escolher o disco.",
+      "description": "Recompilação do jogo de PlayStation. O iniciador (\"Play\") pede o disco americano na primeira vez e depois é só jogar.",
+      "tags": [
+        "Ação",
+        "Plataforma",
+        "Recompilação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "Spicywonda/castlevania-chronicles-recomp"
+      },
+      "assets": {
+        "windows": "win-x64\\.zip$"
+      },
+      "executable": "Play.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Disco americano de Castlevania Chronicles (PlayStation, SLUS-01384), em CUE/BIN ou CHD"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "No iniciador, escolha a imagem do disco (mantenha o .cue junto dos .bin) e clique em Play."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Castlevania%20Chronicles%20(USA).png"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "tenkaichi3-decomp",
+      "name": "Tenkaichi3Decomp",
+      "original": {
+        "title": "Dragon Ball Z: Budokai Tenkaichi 3",
+        "platform": "playstation",
+        "system": "PlayStation 2"
+      },
+      "developer": "z3xox",
+      "summary": "Dragon Ball Z: Budokai Tenkaichi 3 nativo no PC, com músicas e fases personalizadas.",
+      "description": "Port nativo da versão americana de PlayStation 2. Um programa de preparação confere se o .iso é o original sem modificações e extrai os dados do jogo ao lado do port (cerca de 4 GB).",
+      "tags": [
+        "Luta",
+        "Multijogador local"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "z3xox/Tenkaichi3Decomp"
+      },
+      "assets": {
+        "windows": "windows-x64\\.zip$"
+      },
+      "executable": "Tenkaichi3Decomp.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Imagem do disco americano de Budokai Tenkaichi 3 (PlayStation 2, SLUS-21678), em .iso",
+        "note": "Precisa de uns 4 GB livres para os dados extraídos."
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Antes de jogar a primeira vez: \"Abrir pasta\" → rode Tenkaichi3Decomp-setup.exe e escolha o seu .iso. Depois é só usar \"Jogar\"."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%20Tenkaichi%203%20(USA)%20(En%2CJa).png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "trx",
+      "name": "TRX",
+      "original": {
+        "title": "Tomb Raider I–III",
+        "platform": "pc"
+      },
+      "developer": "LostArtefacts",
+      "summary": "Tomb Raider 1, 2 e 3 num motor só, com melhorias, modo foto e níveis personalizados.",
+      "description": "Reimplementação de código aberto dos três primeiros Tomb Raider. O instalador do projeto pega os arquivos dos seus jogos originais (Steam, GOG ou disco) e monta tudo no lugar.",
+      "tags": [
+        "Aventura",
+        "Ação",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "LostArtefacts/TRX"
+      },
+      "assets": {
+        "windows": "Windows_Installer\\.exe$"
+      },
+      "requires": {
+        "kind": "game-files",
+        "label": "Tomb Raider 1, 2 e/ou 3 originais instalados (Steam, GOG ou disco)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "No instalador, escolha a pasta do TRX e marque os jogos que você tem; no fim, se o RetroVault perguntar, aponte o TRX.exe instalado."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Tomb%20Raider%20(USA).png"
+      },
+      "install": "installer",
+      "ai": "none",
+      "homepage": "https://lostartefacts.dev/"
+    },
+    {
+      "id": "uzdoom",
+      "name": "UZDoom",
+      "original": {
+        "title": "Doom",
+        "platform": "pc"
+      },
+      "developer": "UZDoom",
+      "summary": "Motor moderno para Doom, Doom II e mods, continuação da linha GZDoom.",
+      "description": "Port de código aberto do motor de Doom com gráficos modernos e suporte a milhares de mods. Os arquivos do jogo (.wad) vêm da sua cópia.",
+      "tags": [
+        "Tiro",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "UZDoom/UZDoom"
+      },
+      "assets": {
+        "windows": "Windows-UZDoom-Release-x86_64\\.zip$"
+      },
+      "executable": "uzdoom.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Arquivos .wad do seu Doom (ex.: DOOM.WAD ou DOOM2.WAD da versão do Steam ou GOG)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Use \"Abrir pasta\" e copie para lá os arquivos .wad do seu Doom; ao abrir, o UZDoom mostra os jogos que encontrou."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/DOOM/master/Named_Boxarts/Ultimate%20Doom%2C%20The.png"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "opengoal",
+      "name": "OpenGOAL",
+      "original": {
+        "title": "Jak and Daxter: The Precursor Legacy",
+        "platform": "playstation",
+        "system": "PlayStation 2"
+      },
+      "developer": "OpenGOAL",
+      "summary": "Jak and Daxter nativo no PC; o iniciador também cuida de Jak II e Jak 3.",
+      "description": "Port da trilogia Jak feito a partir da decompilação. O iniciador do projeto extrai os dados do seu disco de PlayStation 2, compila e atualiza o jogo.",
+      "tags": [
+        "Plataforma",
+        "Aventura"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "open-goal/launcher"
+      },
+      "assets": {
+        "windows": "x64_en-US\\.msi$"
+      },
+      "requires": {
+        "kind": "game-files",
+        "label": "Imagem do disco de Jak and Daxter (PlayStation 2), em .iso"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Depois do instalador, abra o OpenGOAL e siga o assistente dele: ele pede o .iso do jogo e prepara tudo."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Jak%20and%20Daxter%20-%20The%20Precursor%20Legacy%20(USA)%20(En%2CFr%2CDe%2CEs%2CIt).png"
+      },
+      "install": "installer",
+      "installedExe": [
+        "%PROGRAMFILES%\\OpenGOAL-Launcher\\OpenGOAL-Launcher.exe"
+      ],
+      "ai": "none",
+      "homepage": "https://opengoal.dev/"
+    },
+    {
+      "id": "lost-odyssey-recomp",
+      "name": "Lost Odyssey Recompiled",
+      "original": {
+        "title": "Lost Odyssey",
+        "platform": "xbox",
+        "system": "Xbox 360"
+      },
+      "developer": "freefrank",
+      "summary": "Lost Odyssey (Xbox 360) recompilado para PC, com importador dos discos e trapaças opcionais.",
+      "description": "Recompilação da versão de Xbox 360. O importador aceita a pasta extraída, o default.xex, ISO ou GOD, sem alterar os seus arquivos. Precisa de um processador com AVX.",
+      "tags": [
+        "RPG",
+        "Recompilação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "freefrank/LostOdysseyRecomp"
+      },
+      "assets": {
+        "windows": "windows-x64-v[\\d.]+\\.zip$"
+      },
+      "executable": "LostOdysseyRecomp.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Os 4 discos de Lost Odyssey (Xbox 360), de uma mesma edição: asiática multilíngue ou EUA/Europa",
+        "note": "O disco 1 é obrigatório para começar; não misture edições."
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Ao abrir sem jogo importado, o importador abre sozinho: escolha a pasta, o default.xex, o ISO ou o GOD de cada disco."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/freefrank/LostOdysseyRecomp/HEAD/assets/lost-odyssey-recomp.png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "bloodborne-pc",
+      "name": "Bloodborne for Windows",
+      "original": {
+        "title": "Bloodborne",
+        "platform": "playstation",
+        "system": "PlayStation 4"
+      },
+      "developer": "Supermedo",
+      "summary": "Bloodborne rodando no PC, com primeira execução guiada, mods e DLC.",
+      "description": "Port de Bloodborne (PlayStation 4) com um iniciador que confere os seus arquivos em cinco passos, carrega mods e patches sem alterar o jogo e aceita a DLC The Old Hunters.",
+      "tags": [
+        "Ação",
+        "RPG"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "Supermedo/bloodborne_pc"
+      },
+      "assets": {
+        "windows": "^Bloodborne-Windows\\.zip$"
+      },
+      "executable": "Play Bloodborne.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A sua cópia de Bloodborne extraída do PS4 (dump descriptografado, com o eboot.bin da versão 1.09)",
+        "note": "A DLC vai numa pasta própria (ex.: SPEXPANSIONDLC03), também da sua cópia."
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Ao abrir, o iniciador guia em cinco passos: aponte a pasta do seu dump e ele confere tudo antes de jogar."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/Supermedo/bloodborne_pc/HEAD/launcher/assets/emblem.png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "takedawn",
+      "name": "Takedawn",
+      "original": {
+        "title": "Burnout 3: Takedown",
+        "platform": "xbox",
+        "system": "Xbox"
+      },
+      "developer": "xenophobentx",
+      "summary": "Burnout 3: Takedown (Xbox original) recompilado para PC, com widescreen e configurações modernas.",
+      "description": "Recompilação da versão de Xbox. O instalador do projeto pede a imagem do seu disco americano, confere cada arquivo e copia os dados do jogo para o lugar.",
+      "tags": [
+        "Corrida",
+        "Recompilação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "xenophobentx/takedawn"
+      },
+      "assets": {
+        "windows": "windows-x64-setup\\.exe$"
+      },
+      "requires": {
+        "kind": "game-files",
+        "label": "Imagem do disco americano (NTSC-U) de Burnout 3: Takedown para Xbox original, em .iso (XISO ou imagem completa)",
+        "note": "Discos PAL, japoneses ou arquivos modificados não são aceitos."
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "No instalador, aponte a imagem do seu disco; no fim, se o RetroVault perguntar, escolha o Takedawn.exe instalado."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Burnout%203%20-%20Takedown%20(USA).png"
+      },
+      "install": "installer",
+      "ai": "assisted"
+    },
+    {
+      "id": "ring-out",
+      "name": "Ring Out",
+      "original": {
+        "title": "SoulCalibur II",
+        "platform": "gamecube"
+      },
+      "developer": "jackpoison-prog",
+      "summary": "SoulCalibur II (GameCube) recompilado no seu PC a partir do seu disco, de qualquer região.",
+      "description": "Na primeira execução ele lê o seu disco e recompila o jogo no seu computador (o pacote traz as ferramentas para isso, por isso é grande). Aceita discos americanos, japoneses e europeus.",
+      "tags": [
+        "Luta",
+        "Multijogador local",
+        "Recompilação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "jackpoison-prog/RingOut"
+      },
+      "assets": {
+        "windows": "windows-x64\\.zip$"
+      },
+      "executable": "RingOut.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Imagem do disco de SoulCalibur II (GameCube, qualquer região), em .iso, .gcm, .nkit.iso, .rvz ou .wbfs"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Na primeira vez que abrir, escolha a imagem do disco; a recompilação leva alguns minutos."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/SoulCalibur%20II%20(USA).png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "pt-pc",
+      "name": "P.T. para PC",
+      "original": {
+        "title": "P.T.",
+        "platform": "playstation",
+        "system": "PlayStation 4"
+      },
+      "developer": "LoreanXavier",
+      "summary": "O teaser jogável P.T. rodando no PC a partir da sua cópia do PS4.",
+      "description": "Port de P.T. que lê o dump da sua cópia (versão americana CUSA01127, pasta ou fake PKG). O projeto não traz nenhum arquivo do jogo e aceita mods na pasta \"mods\".",
+      "tags": [
+        "Terror"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "LoreanXavier/pt-pc"
+      },
+      "assets": {
+        "windows": "portable-windows\\.zip$"
+      },
+      "executable": "pt.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A sua cópia de P.T. extraída do PS4 (versão americana CUSA01127, pasta do dump ou fake PKG)",
+        "note": "Só funciona com uma cópia que você já tenha na sua conta/console; o jogo não é mais vendido."
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Ao abrir, aponte a pasta do seu dump (ou o fake PKG) e uma pasta de destino; ele prepara o jogo uma vez."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/LoreanXavier/pt-pc/HEAD/assets/pt.ico"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "octr",
+      "name": "OCTR: Online CTR Nitro-Fueled",
+      "original": {
+        "title": "Crash Team Racing Nitro-Fueled",
+        "platform": "playstation",
+        "system": "PlayStation 4"
+      },
+      "developer": "Ryu7w7",
+      "summary": "Crash Team Racing Nitro-Fueled no PC, com partidas online gratuitas.",
+      "description": "Port de CTR Nitro-Fueled (PS4) que roda a partir do seu dump, com modo online próprio. Os mods são carregados sem alterar os arquivos originais.",
+      "tags": [
+        "Corrida",
+        "Online"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "Ryu7w7/OCTR-NitroFueled-PC"
+      },
+      "assets": {
+        "windows": "portable-v[\\d.]+-windows\\.zip$"
+      },
+      "executable": "Crash™ Team Racing Nitro-Fueled.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A sua cópia de CTR Nitro-Fueled extraída do PS4 (CUSA13795, descriptografada, com a atualização 1.21 mesclada)",
+        "note": "Um .pkg ainda empacotado ou arquivos criptografados não funcionam: o dump precisa estar extraído."
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Ao abrir, aponte a pasta do seu dump; na primeira vez ele prepara os shaders para a sua placa de vídeo."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/Ryu7w7/OCTR-NitroFueled-PC/HEAD/docs/images/logo.png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "king-kong-recompiled",
+      "name": "King Kong Recompiled",
+      "original": {
+        "title": "Peter Jackson's King Kong",
+        "platform": "xbox",
+        "system": "Xbox 360"
+      },
+      "developer": "TekRantGaming",
+      "summary": "Peter Jackson's King Kong (Xbox 360) traduzido para código nativo de PC.",
+      "description": "Recompilação da versão de Xbox 360 feita com o ReXGlue SDK. O iniciador confere o seu disco e copia os arquivos do jogo (cerca de 6,3 GB) para uma pasta ao lado do port.",
+      "tags": [
+        "Ação",
+        "Aventura",
+        "Recompilação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "TekRantGaming/king-kong-recompiled"
+      },
+      "assets": {
+        "windows": "windows-x64\\.zip$"
+      },
+      "executable": "king_kong.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Imagem do disco de King Kong (Xbox 360, versão EUA/Europa), em .iso",
+        "note": "Precisa de uns 6,3 GB livres para os arquivos copiados do disco."
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "No iniciador, use \"Select disc image\" e escolha o seu .iso; ele confere o disco e instala os dados."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/TekRantGaming/king-kong-recompiled/HEAD/docs/images/banner.jpg"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "yakumo",
+      "name": "Yakumo",
+      "original": {
+        "title": "Monster Hunter Portable 3rd HD Ver.",
+        "platform": "playstation",
+        "system": "PlayStation 3"
+      },
+      "developer": "TeamGDB",
+      "summary": "Monster Hunter Portable 3rd HD Ver. (PS3) nativo no PC, com pacotes de texturas e traduções.",
+      "description": "Port da versão HD de PlayStation 3. Esta é a edição portátil: configurações, saves e o jogo preparado ficam todos dentro da pasta do port.",
+      "tags": [
+        "Ação",
+        "RPG",
+        "Multijogador"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "TeamGDB/Yakumo"
+      },
+      "assets": {
+        "windows": "windows-x86_64-portable\\.zip$"
+      },
+      "executable": "Yakumo.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Imagem do disco de Monster Hunter Portable 3rd HD Ver. (PlayStation 3, NPJB-40001), em .iso"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Na primeira vez que abrir, aponte o .iso; ele confere a imagem e prepara o jogo."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/TeamGDB/Yakumo/HEAD/docs/images/social-preview.png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "lantern-engine",
+      "name": "Lantern Engine",
+      "original": {
+        "title": "Bloodborne",
+        "platform": "playstation",
+        "system": "PlayStation 4"
+      },
+      "developer": "Awaken",
+      "summary": "Outra forma de jogar Bloodborne no PC: iniciador próprio, motor otimizado e DLSS.",
+      "description": "Motor baseado no bloodborne_pc e no shadPS4, retrabalhado para desempenho. O iniciador se atualiza sozinho (fora do controle de versões da Loja); o Bloodborne.exe abre o jogo direto.",
+      "tags": [
+        "Ação",
+        "RPG"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "Awakenchan/LanternEngine"
+      },
+      "assets": {
+        "windows": "win64\\.zip$"
+      },
+      "executable": "Bloodborne Launcher.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A sua cópia de Bloodborne extraída do PS4 (CUSA03173, com a atualização 1.09)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "No iniciador, aponte a pasta do seu dump e use Play."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/Awakenchan/LanternEngine/HEAD/launcher/windows/BloodborneLauncher/lantern-j3loo.ico"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "wind-waker-hd-recomp",
+      "name": "Wind Waker HD Recomp",
+      "original": {
+        "title": "The Legend of Zelda: The Wind Waker HD",
+        "platform": "wii",
+        "system": "Wii U"
+      },
+      "developer": "ZeldaWWHDRecomp",
+      "summary": "The Wind Waker HD (Wii U) recompilado para PC; tudo fica dentro da pasta do port.",
+      "description": "Recompilação da versão de Wii U. Na primeira vez, o jogo é preparado a partir do seu dump, no seu PC; dados, saves e caches ficam na pasta \"data\" do port.",
+      "tags": [
+        "Zelda",
+        "Aventura",
+        "Recompilação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "ZeldaWWHDRecomp/ZeldaWWHDRecomp"
+      },
+      "assets": {
+        "windows": "windows-x86_64\\.zip$"
+      },
+      "executable": "Wind Waker HD.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Dump do disco de The Wind Waker HD (Wii U, EUA ou Europa), em .wud, .wux ou arquivo do Cemu"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Ao abrir, escolha o seu dump; a primeira preparação do jogo leva alguns minutos."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/HEAD/android/icon/app_icon_1024.png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "wwe-all-stars-recomp",
+      "name": "WWE All Stars Recomp",
+      "original": {
+        "title": "WWE All Stars",
+        "platform": "xbox",
+        "system": "Xbox 360"
+      },
+      "developer": "shaneomac1337",
+      "summary": "WWE All Stars (Xbox 360) no PC, com iniciador, editor de elenco e vagas para lutadores novos.",
+      "description": "Recompilação da versão de Xbox 360. O iniciador confere o seu disco e a atualização, copia os arquivos do jogo e prepara os shaders.",
+      "tags": [
+        "Luta",
+        "Esporte",
+        "Recompilação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "shaneomac1337/WWE-AllStars-Recomp"
+      },
+      "assets": {
+        "windows": "win-x64\\.zip$"
+      },
+      "executable": "WWEAllStarsLauncher.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Imagem do disco de WWE All Stars (Xbox 360, EUA/Europa) em .iso, mais a Title Update 2"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "No iniciador, escolha o .iso (ou arraste para a janela), depois a Title Update 2 e, se quiser, as DLCs."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/shaneomac1337/WWE-AllStars-Recomp/HEAD/docs/images/banner.jpg"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "yugioh-fm-recompiled",
+      "name": "Yu-Gi-Oh! Forbidden Memories Recompiled",
+      "original": {
+        "title": "Yu-Gi-Oh! Forbidden Memories",
+        "platform": "playstation"
+      },
+      "developer": "Unchiga",
+      "summary": "Yu-Gi-Oh! Forbidden Memories (PS1) refeito a partir do código decompilado, nativo no PC.",
+      "description": "Port da versão americana de PlayStation. O projeto também publica um editor separado (fm-editor), que não é o jogo e não é instalado aqui.",
+      "tags": [
+        "Cartas",
+        "Estratégia"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled"
+      },
+      "assets": {
+        "windows": "^yfm-redecomp-v[\\d.]+-windows\\.zip$"
+      },
+      "executable": "memories-pc.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Disco americano de Yu-Gi-Oh! Forbidden Memories (PlayStation), o arquivo .bin"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Na primeira vez que abrir, escolha o arquivo .bin do seu disco americano."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Yu-Gi-Oh%21%20Forbidden%20Memories%20(USA).png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "opencmr2",
+      "name": "OpenCMR2",
+      "original": {
+        "title": "Colin McRae Rally 2.0",
+        "platform": "pc"
+      },
+      "developer": "pablocpas",
+      "summary": "Colin McRae Rally 2.0 com motor novo e de código aberto, usando os arquivos do seu jogo de PC.",
+      "description": "Reimplementação do Colin McRae Rally 2.0 para PCs modernos. Lê os arquivos da sua instalação original (ou do CD extraído) e lembra o local.",
+      "tags": [
+        "Corrida"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "pablocpas/OpenCMR2"
+      },
+      "assets": {
+        "windows": "Windows-x64\\.zip$"
+      },
+      "executable": "opencmr2.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Colin McRae Rally 2.0 de PC instalado (ou o CD/ISO extraído numa pasta)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Ao abrir, aponte a pasta do jogo instalado; ele confere e lembra o local."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/pablocpas/OpenCMR2/HEAD/docs/logo.jpeg"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "verdite2",
+      "name": "Verdite2",
+      "original": {
+        "title": "King's Field",
+        "platform": "playstation"
+      },
+      "developer": "Voicedrew11",
+      "summary": "King's Field (PS1) recompilado para PC.",
+      "description": "Recompilação da versão americana de King's Field para PlayStation, a partir do seu disco.",
+      "tags": [
+        "RPG",
+        "Recompilação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "Voicedrew11/verdite2"
+      },
+      "assets": {
+        "windows": "win-x64\\.zip$"
+      },
+      "executable": "Verdite2.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Disco americano de King's Field (PlayStation, SLUS-00158), em .cue/.bin ou .chd"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Ao abrir, escolha a imagem do seu disco (.cue com os .bin, ou .chd)."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/King%27s%20Field%20(USA).png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "hydro-thunder-port",
+      "name": "HydroThunderPORT",
+      "original": {
+        "title": "Hydro Thunder Hurricane",
+        "platform": "xbox",
+        "system": "Xbox 360"
+      },
+      "developer": "monscriser",
+      "summary": "Hydro Thunder Hurricane (Xbox 360) no PC, com iniciador de configurações e gerenciador de saves.",
+      "description": "Port experimental (prévia). O iniciador escolhe os seus arquivos do jogo, DLC e atualizações, e cuida de vídeo, controles e backups de save.",
+      "tags": [
+        "Corrida"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "monscriser/HydroThunderPORT"
+      },
+      "assets": {
+        "windows": "Windows-.*\\.zip$"
+      },
+      "executable": "Launcher-Config.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Os arquivos do seu Hydro Thunder Hurricane (Xbox 360), mais DLC e atualizações se tiver"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "No iniciador, escolha os arquivos do jogo (e DLC/atualização), ajuste vídeo e controles e clique em Play."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/monscriser/HydroThunderPORT/HEAD/steam_art/logo.png",
+        "boxart": "https://raw.githubusercontent.com/monscriser/HydroThunderPORT/HEAD/steam_art/grid.png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "uncharted-ndc",
+      "name": "Uncharted: The Nathan Drake Collection (port)",
+      "original": {
+        "title": "Uncharted: The Nathan Drake Collection",
+        "platform": "playstation",
+        "system": "PlayStation 4"
+      },
+      "developer": "bc160201983",
+      "summary": "Port experimental da coletânea Uncharted (PS4) a partir da sua cópia.",
+      "description": "Projeto em estágio inicial. O iniciador pede a pasta do seu dump na primeira vez que você aperta Play. O pacote reaproveita partes de outro port (gow3_pc).",
+      "tags": [
+        "Ação",
+        "Aventura"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port"
+      },
+      "assets": {
+        "windows": "^Uncharted-windows\\.zip$"
+      },
+      "executable": "Uncharted Launcher.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A sua cópia de Uncharted: The Nathan Drake Collection extraída do PS4 (pasta do dump)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o Uncharted Launcher e, no primeiro Play, escolha a pasta do seu dump."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port/HEAD/launcher/assets/icon.png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "second-hunt",
+      "name": "Second Hunt",
+      "original": {
+        "title": "Metroid Prime Hunters",
+        "platform": "ds"
+      },
+      "developer": "BountyHunterKanden",
+      "summary": "Metroid Prime Hunters (DS) refeito para PC, com controles modernos, online e conteúdo novo.",
+      "description": "Port de Metroid Prime Hunters que tira todo o conteúdo da sua ROM, com mapa no pause, personagens novos e partidas online. Ainda em beta.",
+      "tags": [
+        "Tiro",
+        "Online"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "BountyHunterKanden/SecondHunt"
+      },
+      "assets": {
+        "windows": "windows-x64\\.zip$"
+      },
+      "executable": "SecondHunt.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de Metroid Prime Hunters (Nintendo DS, americana 1.0 ou 1.1)"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "EUA 1.0",
+            "header": {
+              "code": "AMHE",
+              "version": 0
+            }
+          },
+          {
+            "name": "EUA 1.1",
+            "header": {
+              "code": "AMHE",
+              "version": 1
+            }
+          }
+        ],
+        "instructions": "Na primeira vez que abrir, escolha a ROM (ou arraste para a janela); ele descompacta uma vez e depois vai direto ao jogo."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Metroid%20Prime%20-%20Hunters%20(USA).png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "goldeneye-pc-port",
+      "name": "GoldenEye 007 PC Port",
+      "original": {
+        "title": "GoldenEye 007",
+        "platform": "n64"
+      },
+      "developer": "jkdansereau",
+      "summary": "Outro port de GoldenEye 007 para PC, com menu de opções e controles configuráveis.",
+      "description": "Port de GoldenEye 007 que lê a sua ROM americana na primeira execução. Há outro port do mesmo jogo na Loja (Project Midas), feito com ajuda de IA mas não gerado por ela.",
+      "tags": [
+        "Tiro",
+        "Ação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "jkdansereau/goldeneye-pc-port"
+      },
+      "assets": {
+        "windows": "win64\\.zip$"
+      },
+      "executable": "ge007.x86_64.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de GoldenEye 007 (Nintendo 64, americana)"
+      },
+      "setup": {
+        "method": "copy",
+        "target": "data/ge007.ntsc-final.z64",
+        "accepted": [
+          {
+            "name": "EUA",
+            "sha1": "abe01e4aeb033b6c0836819f549c791b26cfde83"
+          }
+        ],
+        "instructions": "O RetroVault coloca a ROM conferida em data\\ge007.ntsc-final.z64, onde o port procura; é só abrir."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/GoldenEye%20007%20(USA).png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "spartanport",
+      "name": "SpartanPort",
+      "original": {
+        "title": "God of War III Remastered",
+        "platform": "playstation",
+        "system": "PlayStation 4"
+      },
+      "developer": "FelipePrado0",
+      "summary": "God of War III Remastered (PS4) rodando no PC a partir do seu dump, com iniciador e mods.",
+      "description": "Port de God of War III Remastered com iniciador próprio: escolhe o dump, ajusta gráficos e controles, importa saves do PS4 e instala mods. O \"Play SpartanPort.exe\" do pacote abre o jogo direto com as configurações salvas.",
+      "tags": [
+        "Ação",
+        "Aventura",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "FelipePrado0/SpartanPort"
+      },
+      "assets": {
+        "windows": "^spartanport-windows\\.zip$"
+      },
+      "executable": "SpartanPort.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "O seu dump de God of War III Remastered do PS4 (pasta com eboot.bin, sce_module e sce_sys)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o SpartanPort, clique em Browse… e escolha a pasta do dump que tem o eboot.bin."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/FelipePrado0/SpartanPort/HEAD/packaging/icon/monogram.png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "edge-of-time-recomp",
+      "name": "EdgeOfTimeRecompiled",
+      "original": {
+        "title": "Spider-Man: Edge of Time",
+        "platform": "xbox",
+        "system": "Xbox 360"
+      },
+      "developer": "goliathret",
+      "summary": "Spider-Man: Edge of Time (Xbox 360) recompilado para PC, com gráficos e controles modernos.",
+      "description": "Recompilação estática da versão de Xbox 360. Na primeira vez, o próprio programa guia a instalação e pede os arquivos tirados do seu console (containers ou imagens, sem modificação).",
+      "tags": [
+        "Ação",
+        "Aventura"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "goliathret/EdgeOfTimeRecomp"
+      },
+      "assets": {
+        "windows": "win-amd64\\.zip$"
+      },
+      "executable": "EdgeOfTimeRecomp.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Os arquivos do seu Spider-Man: Edge of Time de Xbox 360 (container ou imagem, sem modificação)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o EdgeOfTimeRecomp e siga o instalador: em \"Add Files\", escolha os arquivos tirados do seu Xbox 360."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/goliathret/EdgeOfTimeRecomp/HEAD/docs/image.png"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "renut",
+      "name": "reNut",
+      "original": {
+        "title": "Banjo-Kazooie: Nuts & Bolts",
+        "platform": "xbox",
+        "system": "Xbox 360"
+      },
+      "developer": "masterspike52",
+      "summary": "Banjo-Kazooie: Nuts & Bolts (Xbox 360) no PC, com 4K, widescreen e multiplayer online.",
+      "description": "Recompilação de Nuts & Bolts. Os arquivos do jogo são preparados uma vez pelo NutStaller, uma ferramenta à parte (github.com/etonedemid/NutStaller): abra, clique em \"do everything\" e escolha a sua ISO.",
+      "tags": [
+        "Plataforma",
+        "Corrida",
+        "Online"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "masterspike52/reNut"
+      },
+      "assets": {
+        "windows": "^renut\\.zip$"
+      },
+      "executable": "renut.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A ISO americana de Banjo-Kazooie: Nuts & Bolts (Xbox 360), sem a atualização",
+        "note": "Os arquivos são preparados pelo NutStaller."
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Baixe o NutStaller (link na descrição), clique em \"do everything\" e escolha a sua ISO; depois é só abrir o reNut."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/masterspike52/reNut/HEAD/icon/renut.png"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "nebula",
+      "name": "Nebula",
+      "original": {
+        "title": "Super Mario Galaxy",
+        "platform": "wii"
+      },
+      "developer": "keepvaibin",
+      "summary": "Super Mario Galaxy (Wii) compilado para PC a partir da sua cópia, com texturas HD e mods.",
+      "description": "O instalador do Nebula baixa um compilador fixo, compila o jogo a partir da sua cópia e instala tudo (precisa de internet e uns 16 GB livres durante a instalação). Ele também atualiza, repara e desinstala. Saves em %LOCALAPPDATA%\\Nebula\\saves, compatíveis com o Dolphin.",
+      "tags": [
+        "Plataforma",
+        "Aventura"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "keepvaibin/nebula"
+      },
+      "assets": {
+        "windows": "^Nebula-Setup\\.exe$"
+      },
+      "requires": {
+        "kind": "game-files",
+        "label": "Super Mario Galaxy americano (RMGE01, revisão 0) em ISO, RVZ ou pasta extraída"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "No instalador, escolha o seu jogo e clique em Install; no fim, se o RetroVault perguntar, aponte o Nebula.exe instalado."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Super%20Mario%20Galaxy%20(USA).png"
+      },
+      "install": "installer",
+      "ai": "generated"
+    },
+    {
+      "id": "alien-resurrection-recomp",
+      "name": "AlienReRecomp",
+      "original": {
+        "title": "Alien Resurrection",
+        "platform": "playstation"
+      },
+      "developer": "DiegoDeDios",
+      "summary": "Alien Resurrection (PS1) recompilado para PC, com controles modernos e renderizador novo.",
+      "description": "Recompilação estática da versão americana. O iniciador pede a imagem do disco, confere se é a SLUS-00633 e mostra a arte do jogo lida da sua cópia. Por enquanto só a primeira fase foi testada a fundo.",
+      "tags": [
+        "Ação",
+        "Terror"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "DiegoDeDios/AlienReRecomp"
+      },
+      "assets": {
+        "windows": "windows-x64\\.zip$"
+      },
+      "executable": "AlienResurrection.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A imagem do disco americano de Alien Resurrection (PS1, SLUS-00633), em .cue/.bin"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "No iniciador, clique em \"Select disc image\", escolha o .cue do seu disco e aperte Start game."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Alien%20Resurrection%20(USA).png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "ttt2-pc",
+      "name": "Tekken Tag Tournament 2 PC",
+      "original": {
+        "title": "Tekken Tag Tournament 2",
+        "platform": "xbox",
+        "system": "Xbox 360"
+      },
+      "developer": "shihabal3amri",
+      "summary": "Tekken Tag Tournament 2 (Xbox 360) no PC em até 4K/60, com rollback e servidores da comunidade.",
+      "description": "O instalador confere a sua imagem do disco e a Title Update 3, monta a versão de PC e prepara os shaders antes de jogar. O online usa o Steam (aberto e logado). Saves em %LOCALAPPDATA%\\TTT2Recomp.",
+      "tags": [
+        "Luta",
+        "Online"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "shihabal3amri/tekken-tag-tournament-2-pc"
+      },
+      "assets": {
+        "windows": "^ttt2_setup\\.exe$"
+      },
+      "requires": {
+        "kind": "game-files",
+        "label": "A ISO de Tekken Tag Tournament 2 (USA, Europe) de Xbox 360 e a Title Update 3"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "No instalador, escolha a ISO e a Title Update 3 (ou a pasta delas); no fim, se o RetroVault perguntar, aponte o .exe do jogo instalado."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/shihabal3amri/tekken-tag-tournament-2-pc/HEAD/.github/assets/banner.png"
+      },
+      "install": "installer",
+      "ai": "generated"
+    },
+    {
+      "id": "dekui",
+      "name": "DekUI",
+      "original": {
+        "title": "The Legend of Zelda: Majora's Mask 3D",
+        "platform": "n3ds"
+      },
+      "developer": "tgacquin",
+      "summary": "Majora's Mask 3D (3DS) numa tela só, com 60 fps, controles de console e minimapa.",
+      "description": "Port que junta as duas telas do 3DS numa só, troca os controles de toque por botões e traz 60 fps com interpolação. Na primeira vez, prepara sozinho os arquivos do jogo colocado ao lado do Dekui.exe.",
+      "tags": [
+        "Aventura",
+        "Ação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "tgacquin/mm3d-dekui"
+      },
+      "assets": {
+        "windows": "Windows-x64\\.zip$"
+      },
+      "executable": "Dekui.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "O seu Majora's Mask 3D americano versão 1.1 (.cci ou .3ds)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Coloque o seu .cci ou .3ds (americano, versão 1.1) na pasta do port, ao lado do Dekui.exe, e abra."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_3DS/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora's%20Mask%203D%20(USA)%20(En%2CFr%2CEs).png"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "new-super-paper-bros",
+      "name": "New Super Paper Bros.",
+      "original": {
+        "title": "Super Paper Mario",
+        "platform": "wii"
+      },
+      "developer": "josiahg2502-glitch",
+      "summary": "Super Paper Mario (Wii) traduzido para PC, com mods e substituição de texturas.",
+      "description": "Port de Super Paper Mario que lê o jogo da sua imagem de disco: na página Play, escolha a imagem e os arquivos são copiados uma vez para a pasta Disc. Aceita a versão americana e a europeia. Precisa de DirectX 12 ou Vulkan.",
+      "tags": [
+        "RPG",
+        "Plataforma",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "josiahg2502-glitch/NewSuperPaperBros"
+      },
+      "assets": {
+        "windows": "^NewSuperPaperBros\\.zip$"
+      },
+      "executable": "New Super Paper Bros.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Super Paper Mario de Wii, americano (R8PE01, revisão 0) ou europeu (R8PP01), em .iso, .ciso ou .wbfs"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o New Super Paper Bros. e, na página Play, escolha a imagem do seu disco."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Super%20Paper%20Mario%20(USA).png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "nsmbu-recomp",
+      "name": "NSMBU Recomp",
+      "original": {
+        "title": "New Super Mario Bros. U",
+        "platform": "wii",
+        "system": "Wii U"
+      },
+      "developer": "nsmbu-recomp",
+      "summary": "New Super Mario Bros. U (Wii U) recompilado para PC, com o pacote Luigi U e mods.",
+      "description": "Recompilação estática da versão 1.3.0. Aceita o NSMBU americano ou europeu na versão 1.3.0, ou o pacote com o New Super Luigi U; o disco americano sem atualização roda, mas sem mods. Jogo, saves e configurações ficam na pasta data.",
+      "tags": [
+        "Plataforma",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "nsmbu-recomp/nsmbu-recomp"
+      },
+      "assets": {
+        "windows": "windows-x86_64\\.zip$"
+      },
+      "executable": "NSMBU.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Os arquivos do seu New Super Mario Bros. U (Wii U, de preferência na versão 1.3.0) e as chaves de criptografia do seu console"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o NSMBU.exe e siga o instalador: ele pede os arquivos do jogo e as chaves tiradas do seu Wii U."
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "athelas",
+      "name": "Athelas",
+      "original": {
+        "title": "The Lord of the Rings: The Return of the King",
+        "platform": "xbox"
+      },
+      "developer": "Shagg88",
+      "summary": "Iniciador para os jogos de O Senhor dos Anéis (Xbox e PC) num lugar só, com melhorias.",
+      "description": "Reúne The Return of the King (versões de PC e Xbox), The Two Towers e The Fellowship of the Ring (Xbox), com presets de gráficos, pacotes de texturas e o ROTK Fix. Os jogos de Xbox aceitam a versão americana em .iso ou extraída.",
+      "tags": [
+        "Ação",
+        "Aventura",
+        "Coletânea"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "Shagg88/Athelas"
+      },
+      "assets": {
+        "windows": "^Athelas-[\\d.]+\\.zip$"
+      },
+      "executable": "Athelas.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "As suas cópias americanas dos jogos: The Return of the King de PC instalado e/ou os discos de Xbox (.iso ou extraídos)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o Athelas e mostre onde estão os seus jogos (o de PC instalado ou as imagens dos discos de Xbox)."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/Shagg88/Athelas/HEAD/launcher/art/icon_1024.png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "rush2-recompiled",
+      "name": "Rush 2: Recompiled",
+      "original": {
+        "title": "Rush 2: Extreme Racing USA",
+        "platform": "n64"
+      },
+      "developer": "bryantmh",
+      "summary": "Rush 2 (N64) no PC com widescreen, alta taxa de quadros, online e as pistas de outros Rush.",
+      "description": "Recompilação de Rush 2 com corridas online para até 8 jogadores e suporte a mods. Com as ROMs opcionais de San Francisco Rush 2049, San Francisco Rush e California Speed (americanas), as pistas e carros delas entram nos mesmos menus pela aba Games.",
+      "tags": [
+        "Corrida",
+        "Online",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "bryantmh/rush2recompiled"
+      },
+      "assets": {
+        "windows": "^Rush2Recompiled-[\\d.]+\\.zip$"
+      },
+      "executable": "Rush2Recompiled.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de Rush 2: Extreme Racing USA (Nintendo 64, americana)"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "EUA",
+            "sha1": "01b0a31b1accc18061e8c85f6c5edf0dbd79f097"
+          }
+        ],
+        "instructions": "Na primeira vez, o Rush 2 pede a ROM: escolha o arquivo conferido aqui. As ROMs opcionais entram depois pela aba Games."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Rush%202%20-%20Extreme%20Racing%20USA%20(USA).png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "fukami",
+      "name": "Fukami",
+      "original": {
+        "title": "Ridge Racer V",
+        "platform": "playstation",
+        "system": "PlayStation 2"
+      },
+      "developer": "danisandoval",
+      "summary": "Ridge Racer V (PS2) nativo no PC, a partir da imagem do seu disco americano.",
+      "description": "Port nativo de Ridge Racer V. Na primeira vez, pede o seu CHD (ou o .cue com o .bin ao lado), confere pelos hashes que é o disco americano e descompacta os arquivos do jogo uma vez (uns 500 MB).",
+      "tags": [
+        "Corrida"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "danisandoval/fukami"
+      },
+      "assets": {
+        "windows": "windows-x86_64\\.zip$"
+      },
+      "executable": "Fukami.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "O disco americano de Ridge Racer V (PS2, SLUS-20002) em .chd ou .cue/.bin"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Na primeira vez, o Fukami pede o .chd ou o .cue do seu disco; ele confere e prepara o jogo sozinho."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ridge%20Racer%20V%20(USA).png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "clayfighter64",
+      "name": "ClayFighter 64",
+      "original": {
+        "title": "ClayFighter 63⅓",
+        "platform": "n64"
+      },
+      "developer": "djultra64",
+      "summary": "Fusão de ClayFighter 63⅓ com Sculptor's Cut (N64) para PC, com todos os lutadores.",
+      "description": "Port que junta a jogabilidade de ClayFighter 63⅓ aos quatro lutadores extras de ClayFighter: Sculptor's Cut. Por isso o instalador pede as duas ROMs americanas, em qualquer ordem (cada uma fornece uma parte). Guarde as pastas local e probe-output ao atualizar.",
+      "tags": [
+        "Luta"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "djultra64/ClayFighter64"
+      },
+      "assets": {
+        "windows": "windows-x86_64\\.zip$"
+      },
+      "executable": "clayfighter64.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "As ROMs americanas de ClayFighter 63⅓ e de ClayFighter: Sculptor's Cut (Nintendo 64), as duas"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "ClayFighter 63⅓ (EUA)",
+            "sha256": "357f26c6cd72559c5c05e8c2df46369624630dbcb1c02b3b6f3338f6ac79af07"
+          },
+          {
+            "name": "Sculptor's Cut (EUA)",
+            "sha256": "9ccebc317b7ee892be3bdc0d1c8ae46687995908ed51ebd58d6855e5e25abd7f"
+          }
+        ],
+        "instructions": "Confira aqui as duas ROMs, uma de cada vez. Na primeira vez, o ClayFighter 64 pede os dois arquivos (em qualquer ordem)."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/djultra64/ClayFighter64/HEAD/assets/branding/clayfighter64-cover.png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "dbz-burst-limit-recomp",
+      "name": "Dragon Ball Z: Burst Limit Recompiled",
+      "original": {
+        "title": "Dragon Ball Z: Burst Limit",
+        "platform": "xbox",
+        "system": "Xbox 360"
+      },
+      "developer": "iExplosiveRage",
+      "summary": "Dragon Ball Z: Burst Limit (Xbox 360) recompilado para PC, com personagens extras e mods.",
+      "description": "Recompilação da versão americana (só ela funciona). Na primeira vez, pede a sua ISO e copia os arquivos do jogo para a pasta do port (uns 3,3 GB). Ainda em alfa.",
+      "tags": [
+        "Luta",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "iExplosiveRage/DBZ-Burst-Limit-Recompiled"
+      },
+      "assets": {
+        "windows": "^DBZ-Burst-Limit-Recompiled-(?!.*-linux\\.zip$).*\\.zip$"
+      },
+      "executable": "burstlimit.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A ISO americana (NTSC-U) de Dragon Ball Z: Burst Limit para Xbox 360"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o burstlimit.exe; na primeira vez, escolha a sua ISO americana e espere a cópia dos arquivos."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/iExplosiveRage/DBZ-Burst-Limit-Recompiled/HEAD/res/logo.png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "ico-pc",
+      "name": "ico-pc",
+      "original": {
+        "title": "ICO",
+        "platform": "playstation",
+        "system": "PlayStation 2"
+      },
+      "developer": "nathanialf",
+      "summary": "ICO (PS2) no PC, a partir da imagem do seu disco, com pacotes de texturas.",
+      "description": "Port de ICO que aceita o disco americano, europeu, japonês ou coreano (a imagem escolhida decide a versão). Na primeira vez, prepara os arquivos do jogo (cerca de 1 GB). Para guardar tudo na pasta do port, crie uma pasta userdata ao lado do executável.",
+      "tags": [
+        "Aventura",
+        "Quebra-cabeça"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "nathanialf/ico-pc"
+      },
+      "assets": {
+        "windows": "-win\\.zip$"
+      },
+      "executable": "x64/ico_pc_x64.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A imagem do seu disco de ICO (PS2), em .iso, .chd ou .bin/.cue"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Na primeira vez, o ICO pede a imagem do seu disco; escolha o arquivo e espere a preparação."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ico%20(USA).png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "earthworm-jim-hd",
+      "name": "Earthworm Jim HD: PC Port",
+      "original": {
+        "title": "Earthworm Jim HD",
+        "platform": "xbox",
+        "system": "Xbox 360"
+      },
+      "developer": "TekRantGaming",
+      "summary": "Earthworm Jim HD (Xbox Live Arcade) recompilado para PC a partir do seu pacote.",
+      "description": "Recompilação com o ReXGlue SDK. Na página Play, \"Install from package...\" instala os arquivos do seu pacote do Xbox Live Arcade numa pasta game ao lado do executável. O iniciador usa a arte da sua própria cópia.",
+      "tags": [
+        "Plataforma",
+        "Ação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "TekRantGaming/earthworm-jim-hd-recompiled"
+      },
+      "assets": {
+        "windows": "windows-x64\\.zip$"
+      },
+      "executable": "earthworm_jim_hd.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "O seu pacote de Earthworm Jim HD do Xbox Live Arcade (Xbox 360)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o port e, na página Play, clique em \"Install from package...\" e escolha o seu pacote."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/TekRantGaming/earthworm-jim-hd-recompiled/HEAD/docs/images/game-title.jpg"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "openttd-jgrpp",
+      "name": "OpenTTD (JGR's Patch Pack)",
+      "original": {
+        "title": "Transport Tycoon Deluxe",
+        "platform": "pc"
+      },
+      "developer": "JGRennison",
+      "summary": "OpenTTD com o pacote de melhorias do JGR: sinais, logística e trens bem mais completos.",
+      "description": "Versão do OpenTTD (o remake livre de Transport Tycoon Deluxe) com centenas de recursos extras. Os gráficos e sons livres (OpenGFX e OpenSFX) podem ser baixados pelo próprio jogo na primeira vez. Quem tem o Transport Tycoon Deluxe original pode copiar os arquivos do CD para a pasta baseset.",
+      "tags": [
+        "Estratégia",
+        "Simulação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "JGRennison/OpenTTD-patches"
+      },
+      "assets": {
+        "windows": "windows-win64\\.zip$"
+      },
+      "executable": "openttd.exe",
+      "requires": {
+        "kind": "none",
+        "label": "Jogo gratuito: não precisa de cópia nenhuma",
+        "note": "Na primeira vez, aceite baixar os gráficos livres (OpenGFX)."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/OpenTTD/OpenTTD/850d05d24d4768c81d97765204ef2a487dd4972c/media/openttd.128.png"
+      },
+      "ai": "none",
+      "homepage": "https://www.openttd.org/"
+    },
+    {
+      "id": "opentyrian",
+      "name": "OpenTyrian",
+      "original": {
+        "title": "Tyrian 2.1",
+        "platform": "pc"
+      },
+      "developer": "opentyrian",
+      "summary": "O shoot ’em up Tyrian (1995) rodando nativo nos PCs de hoje, com os dados gratuitos inclusos.",
+      "description": "Port de código aberto de Tyrian. Os dados do jogo vêm no pacote porque os autores liberaram o Tyrian 2.1 como freeware. Configurações e saves ficam na pasta do usuário.",
+      "tags": [
+        "Nave",
+        "Arcade"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "opentyrian/opentyrian"
+      },
+      "assets": {
+        "windows": "windows-x86_64\\.zip$"
+      },
+      "executable": "opentyrian.exe",
+      "requires": {
+        "kind": "none",
+        "label": "Jogo gratuito: os dados do Tyrian 2.1 (freeware) já vêm no pacote"
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/opentyrian/opentyrian/HEAD/linux/icons/tyrian-128.png"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "rocket-r",
+      "name": "Rocket-R",
+      "original": {
+        "title": "Rocket: Robot on Wheels",
+        "platform": "n64"
+      },
+      "developer": "ThatGuyMcd",
+      "summary": "Rocket: Robot on Wheels (N64) nativo no PC, com widescreen e controles configuráveis.",
+      "description": "Port de Rocket: Robot on Wheels. O iniciador aceita .z64, .n64 ou .v64: escolha a ROM (ou arraste para a janela) e aperte \"Play Rocket-R\". Só a versão americana funciona.",
+      "tags": [
+        "Plataforma",
+        "Quebra-cabeça"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "ThatGuyMcd/Rocket-R"
+      },
+      "assets": {
+        "windows": "Windows-x64\\.zip$"
+      },
+      "executable": "Rocket-R.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de Rocket: Robot on Wheels (Nintendo 64, americana, sem modificação)"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "EUA",
+            "sha1": "622d71a44da0b81ea68092cac9198c66154a4f4a"
+          }
+        ],
+        "instructions": "No iniciador, escolha a ROM conferida aqui (ou arraste para a janela) e clique em \"Play Rocket-R\"."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Rocket%20-%20Robot%20on%20Wheels%20(USA).png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "openrct2",
+      "name": "OpenRCT2",
+      "original": {
+        "title": "RollerCoaster Tycoon 2",
+        "platform": "pc"
+      },
+      "developer": "OpenRCT2",
+      "summary": "RollerCoaster Tycoon 2 reimplementado em código aberto, com multiplayer e muitas melhorias.",
+      "description": "Reimplementação de código aberto de RollerCoaster Tycoon 2: resoluções altas, multiplayer, plugins e correções. Na primeira vez, aponte a pasta do RollerCoaster Tycoon 2 (ou do RollerCoaster Tycoon Classic) instalado.",
+      "tags": [
+        "Simulação",
+        "Estratégia",
+        "Online"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "OpenRCT2/OpenRCT2"
+      },
+      "assets": {
+        "windows": "windows-portable-x64\\.zip$"
+      },
+      "executable": "openrct2.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "RollerCoaster Tycoon 2 (ou RollerCoaster Tycoon Classic) instalado, de disco, Steam ou GOG"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Na primeira vez, o OpenRCT2 pede a pasta do RollerCoaster Tycoon 2 (ou Classic) instalado."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/OpenRCT2/OpenRCT2/develop/resources/logo/icon_x128.png"
+      },
+      "ai": "none",
+      "homepage": "https://openrct2.io/"
+    },
+    {
+      "id": "open-nectar",
+      "name": "Open Nectar",
+      "original": {
+        "title": "Pikmin",
+        "platform": "gamecube"
+      },
+      "developer": "SSunnKing",
+      "summary": "Pikmin e Pikmin 2 (GameCube) nativos no PC, a partir das imagens dos seus discos.",
+      "description": "Port de Pikmin 1 e 2 com um iniciador que instala o jogo do seu disco (ISO ou GCM direto; RVZ, WIA e GCZ precisam do conversor do Dolphin). Aceita Pikmin americano (revisão 1) e europeu, e Pikmin 2 americano e europeu.",
+      "tags": [
+        "Estratégia",
+        "Aventura"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port"
+      },
+      "assets": {
+        "windows": "^nectar-windows\\.zip$"
+      },
+      "executable": "nectar-launcher.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A imagem do seu disco de Pikmin (americano rev. 1 ou europeu) e/ou de Pikmin 2, de GameCube"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o nectar-launcher, escolha a imagem do seu disco e a pasta de instalação."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Pikmin%20(USA).png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "reblue",
+      "name": "re:Blue",
+      "original": {
+        "title": "Blue Dragon",
+        "platform": "xbox",
+        "system": "Xbox 360"
+      },
+      "developer": "zolaware",
+      "summary": "Blue Dragon (Xbox 360) recompilado para PC, com instalador dos três discos e mods.",
+      "description": "Recompilação de Blue Dragon. O assistente copia os arquivos das imagens dos três DVDs (versão global, americana/europeia) para a pasta game, e também instala DLCs. O pacote traz reblue.exe (Direct3D 12) e reblue_vk.exe (Vulkan).",
+      "tags": [
+        "RPG"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "zolaware/reblue"
+      },
+      "assets": {
+        "windows": "^reblue-[\\d.]+-win-amd64\\.zip$"
+      },
+      "executable": "reblue.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "As imagens dos três DVDs de Blue Dragon (Xbox 360, versão global: EUA/Europa)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o re:Blue e siga o assistente: escolha as imagens dos três discos e um preset de gráficos."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/zolaware/reblue/HEAD/res/reblue.ico"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "zelda3-launcher",
+      "name": "Zelda 3 Launcher",
+      "original": {
+        "title": "The Legend of Zelda: A Link to the Past",
+        "platform": "snes"
+      },
+      "developer": "RadzPrower",
+      "summary": "A Link to the Past (SNES) reimplementado em C (zelda3), com widescreen e melhorias opcionais.",
+      "description": "Iniciador de quase um clique para a reimplementação zelda3 do snesrev: ele baixa o código, extrai os dados da sua ROM e compila o jogo no seu PC. Depois traz opções como itens nos botões X/L/R, mais bombas, autosave, sprites e shaders.",
+      "tags": [
+        "Aventura",
+        "Ação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "RadzPrower/Zelda-3-Launcher"
+      },
+      "assets": {
+        "windows": "^Zelda_3_Launcher_v[\\d.]+\\.zip$"
+      },
+      "executable": "Zelda 3 Launcher.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM americana de The Legend of Zelda: A Link to the Past (Super Nintendo)"
+      },
+      "setup": {
+        "method": "copy",
+        "target": "zelda3.sfc",
+        "accepted": [
+          {
+            "name": "EUA",
+            "sha256": "66871d66be19ad2c34c927d6b14cd8eb6fc3181965b6e517cb361f7316009cfb"
+          }
+        ],
+        "instructions": "O RetroVault coloca a ROM conferida como zelda3.sfc ao lado do iniciador; depois clique no botão de download dele."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20(USA).png"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "retip",
+      "name": "Viva Piñata: TiP Recompiled",
+      "original": {
+        "title": "Viva Piñata: Trouble in Paradise",
+        "platform": "xbox",
+        "system": "Xbox 360"
+      },
+      "developer": "SolarCookies",
+      "summary": "Viva Piñata: Trouble in Paradise (Xbox 360) recompilado para PC a partir da sua ISO.",
+      "description": "Recompilação de Viva Piñata: Trouble in Paradise. Na primeira vez, pede a ISO do disco tirada da sua cópia.",
+      "tags": [
+        "Simulação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "SolarCookies/TiP-Recomp"
+      },
+      "assets": {
+        "windows": "windows\\.zip$"
+      },
+      "executable": "retip.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A ISO do seu disco de Viva Piñata: Trouble in Paradise (Xbox 360)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o retip.exe e, quando ele pedir, escolha a ISO do seu disco."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/SolarCookies/TiP-Recomp/HEAD/icon/app.ico"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "weltall",
+      "name": "Weltall",
+      "original": {
+        "title": "Xenogears",
+        "platform": "playstation"
+      },
+      "developer": "Roman215",
+      "summary": "Xenogears (PS1) num motor novo, com widescreen, controles modernos e ferramentas de mod.",
+      "description": "Port de Xenogears que lê os discos da sua cópia americana (ou de um undub em inglês). BIN/CUE e CHD mantêm o áudio dos vídeos; ISO/IMG também servem, mas os vídeos ficam mudos. Coloque as imagens na pasta Games do port.",
+      "tags": [
+        "RPG"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "Roman215/Weltall"
+      },
+      "assets": {
+        "windows": "Windows\\.zip$"
+      },
+      "executable": "Weltall.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "As imagens dos discos americanos de Xenogears (PS1), de preferência em BIN/CUE ou CHD"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Coloque as imagens dos discos na pasta Games do port (botão \"Abrir pasta\") e abra o Weltall."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Xenogears%20(USA).png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "jfg-recomp",
+      "name": "Jet Force Gemini Recomp",
+      "original": {
+        "title": "Jet Force Gemini",
+        "platform": "n64"
+      },
+      "developer": "TK22-26",
+      "summary": "Jet Force Gemini (N64) recompilado para PC, com controles modernos e inventário ao vivo.",
+      "description": "Recompilação de Jet Force Gemini que já vem pronta para jogar: no iniciador, importe a ROM americana uma vez (Select ROM…) e clique em Play. Traz controles modernos, até 4 jogadores e um inventário que acompanha armas e peças da nave.",
+      "tags": [
+        "Tiro",
+        "Aventura"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "TK22-26/JetForceGemini-Recomp"
+      },
+      "assets": {
+        "windows": "windows-x64\\.zip$"
+      },
+      "executable": "JFG-Launcher.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM americana de Jet Force Gemini (Nintendo 64, .z64)"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "EUA",
+            "header": {
+              "code": "NJFE",
+              "version": 0
+            }
+          }
+        ],
+        "instructions": "No iniciador, clique em \"Select ROM…\" e importe a ROM conferida aqui; depois é só clicar em Play."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Jet%20Force%20Gemini%20(USA).png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "vf2-recomp",
+      "name": "Virtua Fighter 2 Recomp",
+      "original": {
+        "title": "Virtua Fighter 2",
+        "platform": "arcade"
+      },
+      "developer": "mr-finster",
+      "summary": "Virtua Fighter 2 (arcade Model 2) recompilado para PC, com widescreen e lutadores secretos.",
+      "description": "Recompilação da versão de arcade (Sega Model 2), checada instrução por instrução contra o original. Libera Dural, MUE e KOJAC na seleção. Precisa do seu dump do jogo no formato do MAME; dá para apontar uma pasta de ROMs com --roms.",
+      "tags": [
+        "Luta",
+        "Arcade"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "mr-finster/vf2-recomp"
+      },
+      "assets": {
+        "windows": "windows\\.zip$"
+      },
+      "executable": "VirtuaFighter2.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "O seu dump de Virtua Fighter 2 de arcade, no formato do MAME (vf2)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Coloque o seu dump (no formato do MAME) onde o port pede na primeira vez, ou abra com --roms apontando a pasta."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/mr-finster/vf2-recomp/HEAD/assets/icon/icon.png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "geometry-wars-re2",
+      "name": "Geometry Wars: Retro Evolved 2 PC",
+      "original": {
+        "title": "Geometry Wars: Retro Evolved 2",
+        "platform": "xbox",
+        "system": "Xbox 360"
+      },
+      "developer": "saulob",
+      "summary": "Geometry Wars: Retro Evolved 2 (Xbox Live Arcade) recompilado para PC a partir do seu pacote.",
+      "description": "Recompilação com o ReXGlue SDK. Na página Play, instale o seu pacote do Xbox Live Arcade: os arquivos do jogo vão para a pasta game ao lado do programa, e \"Reinstall from package...\" repara a instalação mantendo saves e configurações.",
+      "tags": [
+        "Nave",
+        "Arcade"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "saulob/geometry-wars-retro-evolved-2-recompiled"
+      },
+      "assets": {
+        "windows": "windows-x64\\.zip$"
+      },
+      "executable": "geometry_wars_retro_evolved_2.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "O seu pacote de Geometry Wars: Retro Evolved 2 do Xbox Live Arcade (Xbox 360)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o port e, na página Play, instale a partir do seu pacote; espere aparecer \"Ready to play\"."
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "birdman64",
+      "name": "Birdman64",
+      "original": {
+        "title": "Pilotwings 64",
+        "platform": "n64"
+      },
+      "developer": "NoahVl",
+      "summary": "Pilotwings 64 (N64) compilado para o seu PC a partir da sua ROM, com tela de configurações.",
+      "description": "Port de Pilotwings 64: na primeira vez, monta o jogo a partir da sua ROM americana (o pacote traz o compilador). Uma ROM ao lado do Birdman64.exe é achada sozinha. Configurações no F10, Esc ou Select do controle.",
+      "tags": [
+        "Simulação",
+        "Voo"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "NoahVl/Birdman64"
+      },
+      "assets": {
+        "windows": "windows-x64\\.zip$"
+      },
+      "executable": "Birdman64.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM americana de Pilotwings 64 (Nintendo 64)"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "EUA",
+            "sha1": "ec771aedf54ee1b214c25404fb4ec51cfd43191a"
+          }
+        ],
+        "instructions": "Na primeira vez, o Birdman64 pede a ROM: escolha o arquivo conferido aqui."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Pilotwings%2064%20(USA).png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "snap64-recomp",
+      "name": "Snap64 Recomp",
+      "original": {
+        "title": "Pokémon Snap",
+        "platform": "n64"
+      },
+      "developer": "JackandBeans",
+      "summary": "Pokémon Snap (N64) recompilado para PC, com álbum de fotos e controles modernos.",
+      "description": "Recompilação de Pokémon Snap a partir da ROM americana. O port procura pokemonsnap.z64 ao lado do programa (o RetroVault já coloca lá) e guarda as fotos tiradas no jogo.",
+      "tags": [
+        "Aventura",
+        "Fotografia"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "JackandBeans/Snap64Recomp"
+      },
+      "assets": {
+        "windows": "win64\\.zip$"
+      },
+      "executable": "Snap64Recomp.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM americana de Pokémon Snap (Nintendo 64)"
+      },
+      "setup": {
+        "method": "copy",
+        "target": "pokemonsnap.z64",
+        "accepted": [
+          {
+            "name": "EUA",
+            "sha1": "edc7c49cc568c045fe48be0d18011c30f393cbaf"
+          }
+        ],
+        "instructions": "O RetroVault coloca a ROM conferida como pokemonsnap.z64 ao lado do programa; é só abrir."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Pokemon%20Snap%20(USA).png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "silent-hill-pc",
+      "name": "Silent Hill PC Port",
+      "original": {
+        "title": "Silent Hill",
+        "platform": "playstation"
+      },
+      "developer": "SlickAmogus",
+      "summary": "Silent Hill (PS1) nativo no PC, feito a partir da decompilação, com gerenciador de mods.",
+      "description": "Port nativo baseado na decompilação de Silent Hill. Aceita os discos americano, europeu e japonês (detectados sozinhos) e traduções de fãs. Coloque a imagem BIN do disco na pasta gamedata do port; qualquer nome serve.",
+      "tags": [
+        "Terror",
+        "Aventura",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "SlickAmogus/silent-hill-decomp"
+      },
+      "assets": {
+        "windows": "^SHPC_beta-[\\d.]+\\.zip$"
+      },
+      "executable": "SilentHillPC_Launcher.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A imagem BIN do seu disco de Silent Hill (PS1; americano SLUS-00707, europeu ou japonês)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Coloque a imagem BIN do disco na pasta gamedata do port (botão \"Abrir pasta\") e abra o iniciador."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Silent%20Hill%20(USA).png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "ape-escape-recomp",
+      "name": "ApeEscapeRecomp",
+      "original": {
+        "title": "Ape Escape",
+        "platform": "playstation"
+      },
+      "developer": "mstan",
+      "summary": "Ape Escape (PS1) recompilado para PC, com mods como a troca rápida de engenhocas.",
+      "description": "Recompilação estática da versão americana (SCUS-94423). Usa a OpenBIOS automaticamente (a BIOS do seu console é opcional). Prefira BIN/CUE ou CHD: em ISO os vídeos e áudios XA se perdem.",
+      "tags": [
+        "Plataforma",
+        "Ação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "mstan/ApeEscapeRecomp"
+      },
+      "assets": {
+        "windows": "windows-x64\\.zip$"
+      },
+      "executable": "ApeEscapeRecomp.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A imagem do disco americano de Ape Escape (PS1, SCUS-94423), de preferência BIN/CUE"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o ApeEscapeRecomp e escolha a imagem do seu disco; ajuste a tela e os mods antes de jogar."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Ape%20Escape%20(USA).png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "hwder",
+      "name": "Hyrule Warriors DE Recomp",
+      "original": {
+        "title": "Hyrule Warriors: Definitive Edition",
+        "platform": "switch"
+      },
+      "developer": "sonsegajp",
+      "summary": "Hyrule Warriors: Definitive Edition (Switch) recompilado para PC, lendo o seu dump direto.",
+      "description": "Recompilação estática que lê código e dados direto do seu .nsp ao iniciar (nada é extraído para o disco). Precisa de Vulkan 1.2 e de um processador com AVX2. Ainda muito no começo (v0.1).",
+      "tags": [
+        "Ação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "sonsegajp/HWDER"
+      },
+      "assets": {
+        "windows": "win64\\.zip$"
+      },
+      "executable": "hwder.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "O seu dump de Hyrule Warriors: Definitive Edition (.nsp do jogo base) e o prod.keys do seu console"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Coloque o .nsp e o prod.keys ao lado do hwder.exe (botão \"Abrir pasta\"); o prod.keys também é lido da pasta do yuzu/Ryujinx."
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "las-recomp",
+      "name": "LAS Recomp",
+      "original": {
+        "title": "The Legend of Zelda: Link's Awakening",
+        "platform": "switch"
+      },
+      "developer": "peiikai",
+      "summary": "Link's Awakening (Switch) recompilado no seu PC, com modo randomizer.",
+      "description": "Na primeira vez, o programa prepara tudo e faz a recompilação no seu PC a partir dos arquivos do jogo (versões 1.0.0, 1.0.1 ou 1.1.0). A tela inicial escolhe entre o jogo normal e uma seed de randomizer.",
+      "tags": [
+        "Aventura",
+        "Randomizer"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "peiikai/LASRecomp"
+      },
+      "assets": {
+        "windows": "windows\\.zip$"
+      },
+      "executable": "lasrecomp.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "Os arquivos extraídos do seu Link's Awakening de Switch (versão 1.0.0, 1.0.1 ou 1.1.0)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o LAS Recomp e, na tela inicial, use \"Game Files\" para apontar os arquivos extraídos do seu jogo."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/peiikai/LASRecomp/HEAD/docs/start_screen.jpg"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "pinyon-shift",
+      "name": "Pinyon Shift",
+      "original": {
+        "title": "Forza Horizon",
+        "platform": "xbox",
+        "system": "Xbox 360"
+      },
+      "developer": "arcanite24",
+      "summary": "Forza Horizon (Xbox 360) no PC, a partir da ISO do seu disco americano.",
+      "description": "Iniciador que prepara Forza Horizon a partir da ISO do seu disco (ou de uma pasta extraída sem modificação). Só o disco americano (MS-2505) é aceito. O pacote também traz o código-fonte do projeto.",
+      "tags": [
+        "Corrida",
+        "Mundo aberto"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "arcanite24/pinyon-shift"
+      },
+      "assets": {
+        "windows": "^PinyonShift-Launcher\\.zip$"
+      },
+      "executable": "PinyonShiftLauncher.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A ISO do seu disco americano de Forza Horizon (Xbox 360, MS-2505)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o PinyonShiftLauncher e arraste a ISO para a janela (ou use \"Choose ISO\")."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/arcanite24/pinyon-shift/HEAD/.github/pinyon-shift-banner.png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "devilutionx",
+      "name": "DevilutionX",
+      "original": {
+        "title": "Diablo",
+        "platform": "pc"
+      },
+      "developer": "diasurgical",
+      "summary": "Diablo (1996) nos PCs de hoje, com resoluções altas, controle e várias melhorias.",
+      "description": "Versão moderna de Diablo e Hellfire feita a partir do código do jogo, com widescreen, suporte a controle e correções. Precisa do DIABDAT.MPQ do seu Diablo (CD, GOG ou Battle.net); o spawn.mpq da versão shareware também funciona.",
+      "tags": [
+        "RPG",
+        "Ação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "diasurgical/DevilutionX"
+      },
+      "assets": {
+        "windows": "windows-x86_64\\.zip$"
+      },
+      "executable": "devilutionx.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "O DIABDAT.MPQ do seu Diablo (CD, GOG ou Battle.net), ou o spawn.mpq da versão shareware"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Copie o DIABDAT.MPQ (ou o spawn.mpq) para a pasta do port (botão \"Abrir pasta\") e abra o jogo."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/diasurgical/DevilutionX/HEAD/Packaging/resources/icon.png"
+      },
+      "ai": "assisted",
+      "homepage": "https://github.com/diasurgical/DevilutionX"
+    },
+    {
+      "id": "wwe2k14-pc",
+      "name": "WWE 2K14 PC",
+      "original": {
+        "title": "WWE 2K14",
+        "platform": "xbox",
+        "system": "Xbox 360"
+      },
+      "developer": "itsbybanshee",
+      "summary": "WWE 2K14 (Xbox 360) no PC, rodando direto da sua ISO, com suporte a mouse nos menus.",
+      "description": "Port de WWE 2K14 que roda direto da ISO do Xbox 360 (ou de uma pasta extraída), com menus clicáveis pelo mouse. ISOs de PS3 não servem.",
+      "tags": [
+        "Luta",
+        "Esporte"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "itsbybanshee/wwe2k14-pc"
+      },
+      "assets": {
+        "windows": "^WWE2K14-PC-v[\\d.]+\\.zip$"
+      },
+      "executable": "WWE 2K14 PC.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A ISO (ou a pasta extraída) do seu WWE 2K14 de Xbox 360"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o WWE 2K14 PC e, em \"Game files\", clique em \"Choose ISO\" (ou \"Choose folder\")."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/itsbybanshee/wwe2k14-pc/HEAD/res/wwe2k14.png"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "project-picori",
+      "name": "Project Picori",
+      "original": {
+        "title": "The Legend of Zelda: The Minish Cap",
+        "platform": "gba"
+      },
+      "developer": "999sian",
+      "summary": "The Minish Cap (GBA) nativo no PC, com filtros de imagem, shaders e randomizer.",
+      "description": "Port nativo de The Minish Cap a partir da decompilação. Aceita a ROM americana, europeia ou japonesa (reconhecidas pelo SHA-1), cada uma com o seu nome ao lado do tmc_pc.exe: baserom.gba, baserom_eu.gba ou baserom_jp.gba. Saves do mGBA/VBA-M servem como tmc.sav.",
+      "tags": [
+        "Aventura",
+        "Ação",
+        "Randomizer"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "999sian/tmc"
+      },
+      "assets": {
+        "windows": "windows-x86_64-v[\\d.]+\\.tar\\.gz$"
+      },
+      "executable": "tmc_pc.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM de The Legend of Zelda: The Minish Cap (Game Boy Advance; americana, europeia ou japonesa)"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "EUA",
+            "sha1": "b4bd50e4131b027c334547b4524e2dbbd4227130"
+          },
+          {
+            "name": "Europa",
+            "sha1": "cff199b36ff173fb6faf152653d1bccf87c26fb7"
+          },
+          {
+            "name": "Japão",
+            "sha1": "6c5404a1effb17f481f352181d0f1c61a2765c5d"
+          }
+        ],
+        "instructions": "Confira a ROM aqui e coloque-a na pasta do port com o nome da região: baserom.gba (EUA), baserom_eu.gba ou baserom_jp.gba."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Minish%20Cap%20(USA).png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "dragons-crown-pro-pc",
+      "name": "Dragon's Crown Pro PC Port",
+      "original": {
+        "title": "Dragon's Crown Pro",
+        "platform": "playstation",
+        "system": "PlayStation 4"
+      },
+      "developer": "saulob",
+      "summary": "Dragon's Crown Pro (PS4) no PC com bibliotecas do PS4 reimplementadas e renderizador Vulkan.",
+      "description": "O código original do jogo roda no PC com substitutos das bibliotecas do sistema do PS4 e um renderizador Vulkan derivado do shadPS4. Na página Play, \"Install game...\" instala o seu .pkg descriptografado (uns 6 GB). Aceita a base japonesa 1.00 e as atualizações (inclusive a americana 1.01).",
+      "tags": [
+        "Ação",
+        "RPG",
+        "Cooperativo"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "saulob/dragons-crown-pro-pc"
+      },
+      "assets": {
+        "windows": "windows-x64\\.zip$"
+      },
+      "executable": "dragons_crown_pro.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "O .pkg descriptografado do seu Dragon's Crown Pro (PS4)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o port e, na página Play, clique em \"Install game...\" e escolha o seu .pkg."
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "driveclub-recomp",
+      "name": "DriveClub Recomp",
+      "original": {
+        "title": "DriveClub",
+        "platform": "playstation",
+        "system": "PlayStation 4"
+      },
+      "developer": "OverkillLabs3",
+      "summary": "DriveClub (PS4) recompilado para PC, com suporte a volantes e DLCs da sua cópia.",
+      "description": "Recompilação de DriveClub testada com a versão americana 1.28 (CUSA00093); a europeia 1.28 (CUSA00003) também é aceita. O iniciador pede as pastas do seu dump (Browse), configura volante e pedais (Wheel Setup) e libera as DLCs a partir dos seus arquivos.",
+      "tags": [
+        "Corrida"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "OverkillLabs3/driveclub-recomp"
+      },
+      "assets": {
+        "windows": "win64\\.zip$"
+      },
+      "executable": "DriveClub.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "O seu dump de DriveClub do PS4, versão 1.28 (CUSA00093 americano ou CUSA00003 europeu)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o DriveClub.exe, clique em Browse ao lado de cada pasta, apontando o seu dump, e depois em Play."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/OverkillLabs3/driveclub-recomp/HEAD/launcher/driveclub.ico"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "infamous-second-son-pc",
+      "name": "inFAMOUS Second Son PC",
+      "original": {
+        "title": "inFAMOUS Second Son",
+        "platform": "playstation",
+        "system": "PlayStation 4"
+      },
+      "developer": "HayatoG",
+      "summary": "inFAMOUS Second Son (PS4) rodando nativo no PC, com o touchpad mapeado para controle e teclado.",
+      "description": "O código do jogo roda nativo no processador, o sistema do PS4 é reimplementado e a GPU é traduzida para Vulkan. Pede o CUSA00223 (americano), base 1.00 com o update 1.07 juntos numa pasta (uns 33 GB). Se o iniciador novo não abrir, use o \"inFAMOUS Second Son (classic)\" da mesma pasta.",
+      "tags": [
+        "Ação",
+        "Mundo aberto"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "HayatoG/iss_pc"
+      },
+      "assets": {
+        "windows": "windows-x86_64\\.zip$"
+      },
+      "executable": "inFAMOUS Second Son.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "O seu dump de inFAMOUS Second Son do PS4 (CUSA00223, base 1.00 + update 1.07 na mesma pasta)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o iniciador e aponte a pasta do seu dump (base 1.00 com o update 1.07 por cima)."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/HayatoG/iss_pc/HEAD/port/packaging/icon/infamous-icon-1024.png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "sotc-pc",
+      "name": "ShadowOfTheColossus-PC",
+      "original": {
+        "title": "Shadow of the Colossus",
+        "platform": "playstation",
+        "system": "PlayStation 4"
+      },
+      "developer": "AjncSystem",
+      "summary": "Shadow of the Colossus (PS4) no PC, com 60 fps pelo modo Performance do próprio jogo.",
+      "description": "Port do remake de PS4 com iniciador que procura o dump (CUSA08809, de preferência europeu 1.01) e os módulos de som nos discos do PC. O som precisa de dois arquivos do firmware do seu PS4 (libSceNgs2.sprx e libSceUlt.sprx), que não podem ser distribuídos. O iniciador copia os de um shadPS4 instalado.",
+      "tags": [
+        "Aventura",
+        "Ação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "AjncSystem/ShadowOfTheColossus-PC"
+      },
+      "assets": {
+        "windows": "^SotC-PC\\.zip$"
+      },
+      "executable": "SotC.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "O seu dump de Shadow of the Colossus do PS4 (CUSA08809, de preferência europeu 1.01)",
+        "note": "Para ter som: libSceNgs2.sprx e libSceUlt.sprx do seu PS4."
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o SotC.exe: na primeira vez ele procura o dump e os módulos de som; se não achar, aponte as pastas."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/AjncSystem/ShadowOfTheColossus-PC/HEAD/launcher/window_icon.png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "the-last-guardian-pc",
+      "name": "The Last Guardian PC",
+      "original": {
+        "title": "The Last Guardian",
+        "platform": "playstation",
+        "system": "PlayStation 4"
+      },
+      "developer": "HayatoG",
+      "summary": "The Last Guardian (PS4) rodando nativo no PC, do mesmo autor do port de inFAMOUS Second Son.",
+      "description": "Mesma base do port de inFAMOUS: código do jogo nativo, sistema do PS4 reimplementado e GPU em Vulkan. Pede o dump do jogo e do update (CUSA03627 americano ou CUSA03745 europeu, com 15 idiomas). Para ter som, coloque o libSceNgs2.sprx do seu PS4 na pasta system_lib.",
+      "tags": [
+        "Aventura"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "HayatoG/tlg_pc"
+      },
+      "assets": {
+        "windows": "windows-x86_64\\.zip$"
+      },
+      "executable": "The Last Guardian.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "O seu dump de The Last Guardian do PS4 com o update (CUSA03627 ou CUSA03745)",
+        "note": "Para ter som: libSceNgs2.sprx do seu PS4."
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Coloque o libSceNgs2.sprx na pasta system_lib do port (botão \"Abrir pasta\"), abra o iniciador e aponte o seu dump."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/HayatoG/tlg_pc/HEAD/port/packaging/icon/tlg-icon-1024.png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "shaolin-monks-recomp",
+      "name": "ShaolinMonksRecomp",
+      "original": {
+        "title": "Mortal Kombat: Shaolin Monks",
+        "platform": "xbox",
+        "system": "Xbox"
+      },
+      "developer": "OAleex",
+      "summary": "Mortal Kombat: Shaolin Monks (Xbox) recompilado para PC a partir da sua cópia.",
+      "description": "Recompilação da versão de Xbox. O iniciador aceita a ISO, XISO, ZIP, a pasta extraída ou o default.xbe do seu disco americano ou europeu, lê as imagens direto e importa o ZIP uma vez.",
+      "tags": [
+        "Ação",
+        "Luta",
+        "Cooperativo"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "OAleex/ShaolinMonksRecomp"
+      },
+      "assets": {
+        "windows": "Windows-x64\\.zip$"
+      },
+      "executable": "ShaolinMonksRecomp.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A sua cópia de Mortal Kombat: Shaolin Monks de Xbox (americana ou europeia): ISO, XISO, ZIP ou pasta extraída"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "No iniciador, escolha a sua ISO (ou XISO, ZIP, pasta ou default.xbe) e clique em \"Save and Play\"."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/OAleex/ShaolinMonksRecomp/HEAD/docs/images/shaolin-monks-recomp.png",
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Mortal%20Kombat%20-%20Shaolin%20Monks%20(USA).png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "openmw",
+      "name": "OpenMW",
+      "original": {
+        "title": "The Elder Scrolls III: Morrowind",
+        "platform": "pc"
+      },
+      "developer": "OpenMW",
+      "summary": "Motor de código aberto para Morrowind: resoluções altas, Lua, multiplataforma e correções.",
+      "description": "Reimplementação do motor de Morrowind. O instalador do projeto põe o OpenMW no PC e, na primeira vez, o assistente importa os \"Data Files\" do seu Morrowind (Steam, GOG ou CD) com as expansões.",
+      "tags": [
+        "RPG",
+        "Mundo aberto",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "OpenMW/openmw"
+      },
+      "assets": {
+        "windows": "Windows-x64\\.exe$"
+      },
+      "requires": {
+        "kind": "game-files",
+        "label": "Morrowind instalado (Steam, GOG ou CD), com os Data Files"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Rode o instalador; no fim, se o RetroVault perguntar, aponte o openmw-launcher.exe. Na primeira vez, o assistente pede a pasta do Morrowind."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/OpenMW/openmw/HEAD/files/launcher/images/openmw.png"
+      },
+      "install": "installer",
+      "ai": "none",
+      "homepage": "https://openmw.org/"
+    },
+    {
+      "id": "atomic-bomberman-modern",
+      "name": "Atomic Bomberman — Modern",
+      "original": {
+        "title": "Atomic Bomberman",
+        "platform": "pc"
+      },
+      "developer": "elraro",
+      "summary": "Atomic Bomberman (1997) refeito para os PCs de hoje, com gráficos livres e multijogador.",
+      "description": "Projeto de fã que joga direto com gráficos e sons livres próprios. Com a sua cópia do jogo original, usa os gráficos, fontes, efeitos e músicas originais (opção --game-dir, ou uma pasta game ao lado do executável).",
+      "tags": [
+        "Ação",
+        "Multijogador local",
+        "Online"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "elraro/atomic-bomberman"
+      },
+      "assets": {
+        "windows": "^atomic-bomberman-modern-windows-x64\\.zip$"
+      },
+      "executable": "atomic.exe",
+      "requires": {
+        "kind": "none",
+        "label": "Joga direto: o pacote traz gráficos e sons livres próprios",
+        "note": "Com a sua cópia do Atomic Bomberman original, ele usa a arte e as músicas originais."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/elraro/atomic-bomberman/HEAD/docs/images/menu.png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "urbz-recomp",
+      "name": "The Urbz Recomp",
+      "original": {
+        "title": "The Urbz: Sims in the City",
+        "platform": "xbox",
+        "system": "Xbox"
+      },
+      "developer": "abilliontokens",
+      "summary": "The Urbz: Sims in the City (Xbox) recompilado para PC a partir do seu disco americano.",
+      "description": "Recompilação da versão americana de Xbox (o executável aceita só o default.xbe americano). Coloque a imagem do disco na pasta assets ao lado do Urbz.exe; ele monta a imagem e inicia o jogo.",
+      "tags": [
+        "Simulação",
+        "Aventura"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "abilliontokens/urbz-recomp"
+      },
+      "assets": {
+        "windows": "^Urbz\\.zip$"
+      },
+      "executable": "Urbz.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A imagem do disco americano de The Urbz: Sims in the City (Xbox), ISO ou XISO"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Coloque a ISO do disco na pasta assets do port (botão \"Abrir pasta\") e abra o Urbz.exe."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Urbz%2C%20The%20-%20Sims%20in%20the%20City%20(USA).png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "tony-was-a-pro-skater",
+      "name": "Tony Was A Pro Skater",
+      "original": {
+        "title": "Tony Hawk's Pro Skater",
+        "platform": "playstation"
+      },
+      "developer": "LANCommander",
+      "summary": "Tony Hawk's Pro Skater (PS1) nativo no PC, a partir da imagem do seu disco americano.",
+      "description": "Port nativo da versão americana (SLUS-00860). Na primeira vez, copia o que precisa do disco para a pasta Data. A imagem precisa ser o .bin cru (MODE2/2352), com o nome thps1.bin, ao lado do thps.exe.",
+      "tags": [
+        "Esporte",
+        "Skate"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "LANCommander/TonyWasAProSkater"
+      },
+      "assets": {
+        "windows": "windows-x64-[\\d.]+\\.zip$"
+      },
+      "executable": "thps.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A imagem .bin (MODE2/2352) do seu Tony Hawk's Pro Skater americano (PS1, SLUS-00860)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Coloque a imagem como thps1.bin na pasta do port (botão \"Abrir pasta\"), ao lado do thps.exe, e abra."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Tony%20Hawk's%20Pro%20Skater%20(USA).png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "cybermage",
+      "name": "CyberMage: Darklight Re-Awakening",
+      "original": {
+        "title": "CyberMage: Darklight Awakening",
+        "platform": "pc"
+      },
+      "developer": "lodilorenzo",
+      "summary": "CyberMage (1995) nos PCs de hoje, com controles modernos e resolução nativa.",
+      "description": "Port do jogo de 1995 de Origin. Na primeira vez, importa os arquivos do seu CD (uma .iso ISO-9660 ou a pasta do jogo). Saves e configurações ficam separados dos arquivos originais.",
+      "tags": [
+        "Tiro",
+        "Ação"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "lodilorenzo/cybermage-darklight-re-awakening"
+      },
+      "assets": {
+        "windows": "windows-x64\\.zip$"
+      },
+      "executable": "cybermage.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "O seu CyberMage: Darklight Awakening (a .iso do CD ou a pasta do jogo)"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Na primeira vez, escolha a .iso do seu CD ou a pasta do jogo para importar."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/lodilorenzo/cybermage-darklight-re-awakening/HEAD/docs/img/title.png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "urbanrecomp",
+      "name": "UrbanRecomp Enhanced",
+      "original": {
+        "title": "SimCity",
+        "platform": "snes"
+      },
+      "developer": "kandowontu2",
+      "summary": "SimCity (SNES) recompilado para PC, com melhorias e mapas extraídos da sua ROM.",
+      "description": "Recompilação de SimCity de Super Nintendo num único .exe portátil. Ao abrir, escolha a sua ROM americana (o nome do arquivo não importa: ela é reconhecida pelo conteúdo).",
+      "tags": [
+        "Simulação",
+        "Estratégia"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "kandowontu2/UrbanRecomp"
+      },
+      "assets": {
+        "windows": "windows-x64-single\\.exe$"
+      },
+      "requires": {
+        "kind": "rom",
+        "label": "ROM americana de SimCity (Super Nintendo), sem modificação"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o UrbanRecomp e escolha a sua ROM americana quando ele pedir."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/kandowontu2/UrbanRecomp/HEAD/assets/urbanrecomp_logo.png",
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/SimCity%20(USA).png"
+      },
+      "install": "portable",
+      "ai": "assisted"
+    },
+    {
+      "id": "svr2011-pc",
+      "name": "WWE SmackDown vs. Raw 2011 PC",
+      "original": {
+        "title": "WWE SmackDown vs. Raw 2011",
+        "platform": "xbox",
+        "system": "Xbox 360"
+      },
+      "developer": "KaikoClanworth1",
+      "summary": "WWE SmackDown vs. Raw 2011 (Xbox 360) no PC, com iniciador, criador de mods e DLSS.",
+      "description": "Port da versão de Xbox 360 com iniciador (vídeo, controles, mods) e um criador de mods. Aponte a ISO do seu disco de Xbox 360 no iniciador; as versões de PS3, Wii, PS2 e PSP não servem.",
+      "tags": [
+        "Luta",
+        "Esporte",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "KaikoClanworth1/wwe-svr2011-pc"
+      },
+      "assets": {
+        "windows": "^SvR2011-PC-v[\\d.]+\\.zip$"
+      },
+      "executable": "SvR2011 Launcher.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A ISO do seu disco de WWE SmackDown vs. Raw 2011 de Xbox 360"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Abra o SvR2011 Launcher e, em \"Your disc image\", escolha a sua ISO."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/KaikoClanworth1/wwe-svr2011-pc/HEAD/docs/screenshots/title.jpg"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "power-dozer",
+      "name": "Power Dozer",
+      "original": {
+        "title": "Blast Corps",
+        "platform": "n64"
+      },
+      "developer": "djultra64",
+      "summary": "Blast Corps (N64) recompilado para PC a partir da sua ROM americana (Rev 1).",
+      "description": "Recompilação estática da versão americana Rev 1 com o N64Recomp. Aceita .z64, .v64, .n64 ou um ZIP com a ROM; o código do jogo é gerado no seu PC a partir dela.",
+      "tags": [
+        "Ação",
+        "Quebra-cabeça"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "djultra64/Power-Dozer"
+      },
+      "assets": {
+        "windows": "windows-x86_64\\.zip$"
+      },
+      "executable": "power-dozer.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM americana de Blast Corps Rev 1 (Nintendo 64)"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "EUA Rev 1",
+            "sha1": "483f7161aea39de8b45c9fbc70a2c3883c4dea8c"
+          }
+        ],
+        "instructions": "Na primeira vez, o Power Dozer pede a ROM: escolha o arquivo conferido aqui."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Blast%20Corps%20(USA)%20(Rev%201).png"
+      },
+      "ai": "generated"
+    },
+    {
+      "id": "snowboard-kids-recomp",
+      "name": "Snowboard Kids: Recompiled",
+      "original": {
+        "title": "Snowboard Kids",
+        "platform": "n64"
+      },
+      "developer": "cdlewis",
+      "summary": "Snowboard Kids (N64) recompilado para PC, com widescreen, alta taxa de quadros e mods.",
+      "description": "Recompilação com o N64Recomp, no estilo do Zelda 64: Recompiled. Aceita só a ROM americana; formatos diferentes de .z64 são convertidos sozinhos. Com um portable.txt ao lado do .exe, saves e mods ficam na pasta do port.",
+      "tags": [
+        "Corrida",
+        "Esporte",
+        "Mods"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "cdlewis/snowboardkids-recomp"
+      },
+      "assets": {
+        "windows": "Windows\\.zip$"
+      },
+      "executable": "SnowboardKidsRecompiled.exe",
+      "requires": {
+        "kind": "rom",
+        "label": "ROM americana de Snowboard Kids (Nintendo 64)"
+      },
+      "setup": {
+        "method": "in-app",
+        "accepted": [
+          {
+            "name": "EUA",
+            "sha1": "1583bacc9046a360df8ea4d536942155247e154c"
+          }
+        ],
+        "instructions": "No menu inicial, escolha a ROM conferida aqui; ele guarda e não pede de novo."
+      },
+      "art": {
+        "boxart": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Snowboard%20Kids%20(USA).png"
+      },
+      "ai": "assisted"
+    },
+    {
+      "id": "aerofoil",
+      "name": "Aerofoil",
+      "original": {
+        "title": "Glider PRO",
+        "platform": "pc"
+      },
+      "developer": "elasota",
+      "summary": "Glider PRO, o clássico do avião de papel do Macintosh (1994), nos PCs de hoje.",
+      "description": "Port de Glider PRO, de John Calhoun, que liberou o código e os recursos do jogo. O pacote já traz tudo para jogar.",
+      "tags": [
+        "Plataforma",
+        "Quebra-cabeça"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "elasota/Aerofoil"
+      },
+      "assets": {
+        "windows": "win64\\.zip$"
+      },
+      "executable": "Aerofoil.exe",
+      "requires": {
+        "kind": "none",
+        "label": "Jogo gratuito: o pacote já traz tudo para jogar"
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/elasota/Aerofoil/HEAD/AerofoilMac/AerofoilMac/Assets.xcassets/AppIcon.appiconset/256.png"
+      },
+      "ai": "none"
+    },
+    {
+      "id": "heretic2r",
+      "name": "Heretic2R",
+      "original": {
+        "title": "Heretic II",
+        "platform": "pc"
+      },
+      "developer": "m-x-d",
+      "summary": "Heretic II (1998) reconstruído para os PCs de hoje, a partir dos arquivos do seu jogo.",
+      "description": "Reimplementação de Heretic II. Copie a pasta base do seu Heretic II (sem os .dll) para a pasta do port; o jogo precisa estar na versão 1.06. Para ter música, ripe as faixas do CD como OGG em base\\music.",
+      "tags": [
+        "Ação",
+        "Fantasia"
+      ],
+      "source": {
+        "type": "github",
+        "repo": "m-x-d/Heretic2R"
+      },
+      "assets": {
+        "windows": "^Heretic2R_R\\d+\\.zip$"
+      },
+      "executable": "Heretic2R.exe",
+      "requires": {
+        "kind": "game-files",
+        "label": "A pasta base do seu Heretic II, atualizado para a versão 1.06"
+      },
+      "setup": {
+        "method": "in-app",
+        "instructions": "Copie a pasta base do seu Heretic II (sem os .dll) para a pasta do port (botão \"Abrir pasta\")."
+      },
+      "art": {
+        "logo": "https://raw.githubusercontent.com/m-x-d/Heretic2R/HEAD/src/launcher/icon.ico"
+      },
+      "ai": "none"
+    }
+  ]
+}
